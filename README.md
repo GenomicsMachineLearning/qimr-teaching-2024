@@ -71,17 +71,17 @@ This installs:
 
 Windows:
 ```
-C:\> conda env create --name qimr-teaching-2024 --file=environment-windows.yml
+C:\> conda env create --name qimr-teaching-2024 --file=environment-windows.yml -y
 ```
 
 MacOS:
 ```
-$ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-macos.yml
+$ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-macos.yml -y
 ```
 
 Linux:
 ```
-$ conda env create --name qimr-teaching-2024 --file=environment-linux.yml
+$ conda env create --name qimr-teaching-2024 --file=environment-linux.yml -y
 ```
 
 ### Using a package manager (manual installation)
