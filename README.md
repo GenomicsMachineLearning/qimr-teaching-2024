@@ -137,10 +137,9 @@ $ micromamba install -c conda-forge jupyter pandas fontconfig freetype libtiff r
 $ python -m pip install ucdeconvolve igraph leidenalg
 ```
 
-### Export Environment File
+### Export Environment File (not required)
 
-For each operating system save the dependencies as:
-
+In order to use the environments again, save the conda environment file and remove the fingerprint information:
 ```
 $ conda env export > environments-[linux|windows|macos].yml
 ```
