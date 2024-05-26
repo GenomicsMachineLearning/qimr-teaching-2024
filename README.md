@@ -62,12 +62,12 @@ channels:
 channel_priority: flexible
 ```
 
-## Installing Dependencies
+## Installing Managed Dependencies (Required)
 This installs:
- * R and dependencies for Seurat v5, Voyager and CARD, and
+ * R and its dependencies for Seurat v5,
  * Python and dependencies for Jupyter.
 
-### Using a package manager with and an environment.yaml (recommended)
+### Using a package manager with and an environment.yaml (Recommended)
 
 Windows:
 ```
@@ -117,7 +117,10 @@ $ conda install -c bioconda presto r-presto bioconductor-dropletutils r-MuSiC -y
 $ conda install -c conda-forge r-mcmcpack r-fields r-concaveman r-scatterpie r-ggcorrplot r-nnls r-pbmcapply r-NMF -y
 ```
 
-R Dependencies to Install Directly:
+## Install Environment Specific Dependencies (Required)
+This install dependencies that aren't managed by packages and need to be installed directly from source.
+
+R Dependencies to install directly:
 ```
 $ R
 > install.packages("remotes", dependencies = FALSE)
