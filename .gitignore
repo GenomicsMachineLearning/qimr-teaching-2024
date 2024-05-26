@@ -1,0 +1,4 @@
+data/
+conda-envs/
+micromamba/
+.ipynb_checkpoints
