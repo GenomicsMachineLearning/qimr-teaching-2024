@@ -28,12 +28,10 @@
 
 # Installation
 
-Using Conda/Mamba/Micromamba:
-* MacOS
-* Windows
+To use the notebooks we require using a Conda package manager (or compatible tool like Mamba or Micromamba).
 
-How many environments:
-* One for Voyager/Clustering/etc in R.
+There are XXX environments that need to be setup (as some versions of some software are not compatible with others):
+* qimr-teaching-2024 - for use with Voyager/Clustering/etc in R.
 * 
 
 # Package Managers
@@ -43,14 +41,18 @@ who are used to using package managers.
 
 ## Setup Conda
 
-** Add instructions here for MacOS and Windows**
+Follow the instructions to download and install Conda: https://www.anaconda.com/download/success
 
 ## Setup Micromamba
+
+Follow the instructions to install Micromamba: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+
+Once downloaded, ensure Micromamba is initialised:
 ```
-$ /working/joint_projects/P3903/teaching2024-winter-qimr/micromamba/micromamba shell init
+$ micromamba shell init
 ```
 
-### Configuration
+### Configuration (Micromamba only)
 
 Create ~/.condarc
 
