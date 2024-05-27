@@ -59,8 +59,6 @@ Once downloaded, ensure Micromamba is initialised:
 $ micromamba shell init
 ```
 
-### Configuration (Micromamba only)
-
 Create ~/.condarc
 
 ```
