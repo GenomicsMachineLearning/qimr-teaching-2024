@@ -112,7 +112,7 @@ Python Dependencies:
 $ python -m pip install ucdeconvolve igraph leidenalg
 ```
 
-# Additional Information (Not Required for Course)
+# Additional Information (Not Required for Course Participant)
 
 ## Manual Installation/Recreating Environment YAML
 
