@@ -30,7 +30,7 @@ An overview of the materials to be covered in this course:
 # Installation
 
 To use the notebooks we require using a Conda package manager (or compatible tool like Mamba or Micromamba),
-installing packages with Conda and then installing additional packages directly into R and Python.
+installing the packages with Conda and then installing additional packages directly into R and Python.
 
 For each environment, the steps are:
 * Download and install a package manager (Conda),
