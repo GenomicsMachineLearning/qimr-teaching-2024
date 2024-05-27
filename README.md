@@ -150,7 +150,7 @@ Python Dependencies:
 $ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel scanpy -y
 ```
 
-### Export Environment File (not required)
+### Export Environment File
 
 In order to use the environments again, save the conda environment file and remove the fingerprint information:
 ```
