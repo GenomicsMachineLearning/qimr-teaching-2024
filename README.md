@@ -95,7 +95,7 @@ $ conda create --name qimr-teaching-2024 --subdir osx-64 python=3.10 r-base=4.3 
 $ conda activate qimr-teaching-2024
 ```
 
-Others:
+Windows/MacOS:
 ```
 $ conda create --name qimr-teaching-2024 python=3.10 r-base=4.3 r-devtools -y
 $ conda activate qimr-teaching-2024
@@ -107,7 +107,7 @@ $ micromamba create -p /working/joint_projects/P3903/teaching2024-winter-qimr/co
 $ micromamba activate /mnt/lustre/working/joint_projects/P3903/teaching2024-winter-qimr/conda-envs/base-python-R
 ```
 
-For OSes other than HPC replace all calls to micromamba to conda.
+Replace the calls below with "micromamba" instaed of "conda".
 
 #### Install Dependencies
 
