@@ -1,5 +1,9 @@
-# Materials
+# QIMR Spatial and Machine Learning Teaching Material 2024
 
+Follow the headings marked "Required" to setup your environment and follow operating system specific instructions as
+needed (Windows, MacOS or Linux).
+
+An overview of the materials to be covered in this course:
 * 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
   * Voyager - Cell Segmentation, Visualising QC, Clustering, Moran-I, etc.
 * 002 - Spatial Statistics (Andrew Newman)
@@ -20,13 +24,13 @@
 * 008 - Deep Learning [Xiao & Quan]
   * 
 
-# Data
+# Data (Required)
 
 * One Visium, one Xenium, one CosmiX
   * Melanoma - single cell, Visium, Xenium, and CosmiX.
 * Instructions on how to download
 
-# Installation
+# Installation (Required)
 
 To use the notebooks we require using a Conda package manager (or compatible tool like Mamba or Micromamba),
 installing packages with Conda and then installing additional packages directly into R and Python.
@@ -40,7 +44,7 @@ There are XXX environments that need to be setup (as some versions of some softw
 * qimr-teaching-2024 - for use with materials 001 and 002 (Voyager/Clustering/etc in R).
 * 
 
-# Package Managers
+# Package Managers (Required)
 
 We recommend Conda for most users and operating systems. Micromamba is included here for use on the HPC and people
 who are used to using package managers. 
