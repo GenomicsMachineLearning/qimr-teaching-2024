@@ -96,7 +96,7 @@ $ conda env create --name qimr-teaching-2024 --file=environment-linux.yml -y
 ## Install Environment Specific Dependencies
 This install dependencies that aren't managed by packages and need to be installed directly from source.
 
-R Dependencies to install directly:
+R Dependencies:
 ```
 $ R
 > install.packages("remotes", dependencies = FALSE)
