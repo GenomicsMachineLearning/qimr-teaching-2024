@@ -131,8 +131,8 @@ $ conda activate qimr-teaching-2024
 
 HPC:
 ```
-$ micromamba create -p /working/joint_projects/P3903/teaching2024-winter-qimr/conda-envs/base-python-R python=3.10 r-base=4.3 r-devtools -y
-$ micromamba activate /mnt/lustre/working/joint_projects/P3903/teaching2024-winter-qimr/conda-envs/base-python-R
+$ micromamba create -p [some-directory]/conda-envs/qimr-teaching-2024 python=3.10 r-base=4.3 r-devtools -y
+$ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 ```
 
 Replace the calls below with "micromamba" instaed of "conda".
