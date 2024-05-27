@@ -79,7 +79,7 @@ This installs:
  * R and its dependencies for Seurat v5,
  * Python and dependencies for Jupyter.
 
-### Using a package manager with and an environment.yaml (Recommended)
+### Using a package manager with and an environment YAML file (Recommended)
 
 Windows:
 ```
