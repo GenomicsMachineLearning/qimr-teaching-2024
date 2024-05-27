@@ -1,8 +1,5 @@
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
-Follow the headings marked "Required" to setup your environment and follow operating system specific instructions as
-needed (Windows, MacOS or Linux).
-
 An overview of the materials to be covered in this course:
 * 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
   * Voyager - Cell Segmentation, Visualising QC, Clustering, Moran-I, etc.
@@ -24,13 +21,13 @@ An overview of the materials to be covered in this course:
 * 008 - Deep Learning [Xiao & Quan]
   * 
 
-# Data (Required)
+# Data
 
 * One Visium, one Xenium, one CosmiX
   * Melanoma - single cell, Visium, Xenium, and CosmiX.
 * Instructions on how to download
 
-# Installation (Required)
+# Installation
 
 To use the notebooks we require using a Conda package manager (or compatible tool like Mamba or Micromamba),
 installing packages with Conda and then installing additional packages directly into R and Python.
@@ -44,7 +41,7 @@ There are XXX environments that need to be setup (as some versions of some softw
 * qimr-teaching-2024 - for use with materials 001 and 002 (Voyager/Clustering/etc in R).
 * 
 
-# Package Managers (Required)
+# Package Managers
 
 We recommend Conda for most users and operating systems. Micromamba is included here for use on the HPC and people
 who are used to using package managers. 
@@ -74,7 +71,7 @@ channels:
 channel_priority: flexible
 ```
 
-## Installing Managed Dependencies (Required)
+## Installing Managed Dependencies
 This installs:
  * R and its dependencies for Seurat v5,
  * Python and dependencies for Jupyter.
@@ -96,9 +93,30 @@ Linux:
 $ conda env create --name qimr-teaching-2024 --file=environment-linux.yml -y
 ```
 
-### Using a package manager (manual installation)
+## Install Environment Specific Dependencies
+This install dependencies that aren't managed by packages and need to be installed directly from source.
 
-#### Create and Activate a New Environment
+R Dependencies to install directly:
+```
+$ R
+> install.packages("remotes", dependencies = FALSE)
+> remotes::install_github("drighelli/SpatialExperiment", dependencies=FALSE)
+> remotes::install_github("pachterlab/SpatialFeatureExperiment", ref="devel", dependencies=FALSE)
+> remotes::install_github("pachterlab/Voyager", ref="devel", dependencies=FALSE)
+> remotes::install_version('wrMisc', dependencies = FALSE)
+> remotes::install_github('YingMa0107/CARD', dependencies = FALSE)
+```
+
+Python Dependencies:
+```
+$ python -m pip install ucdeconvolve igraph leidenalg
+```
+
+# Additional Information (Not Required for Course)
+
+## Manual Installation/Recreating Environment YAML
+
+### Create and Activate a New Environment
 MacOS:
 ```
 $ conda create --name qimr-teaching-2024 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
@@ -119,7 +137,7 @@ $ micromamba activate /mnt/lustre/working/joint_projects/P3903/teaching2024-wint
 
 Replace the calls below with "micromamba" instaed of "conda".
 
-#### Install Dependencies
+### Install Dependencies
 
 R Dependencies:
 ```
@@ -132,25 +150,6 @@ $ conda install -c conda-forge r-mcmcpack r-fields r-concaveman r-scatterpie r-g
 Python Dependencies:
 ```
 $ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel scanpy -y
-```
-
-## Install Environment Specific Dependencies (Required)
-This install dependencies that aren't managed by packages and need to be installed directly from source.
-
-R Dependencies to install directly:
-```
-$ R
-> install.packages("remotes", dependencies = FALSE)
-> remotes::install_github("drighelli/SpatialExperiment", dependencies=FALSE)
-> remotes::install_github("pachterlab/SpatialFeatureExperiment", ref="devel", dependencies=FALSE)
-> remotes::install_github("pachterlab/Voyager", ref="devel", dependencies=FALSE)
-> remotes::install_version('wrMisc', dependencies = FALSE)
-> remotes::install_github('YingMa0107/CARD', dependencies = FALSE)
-```
-
-Python Dependencies:
-```
-$ python -m pip install ucdeconvolve igraph leidenalg
 ```
 
 ### Export Environment File (not required)
