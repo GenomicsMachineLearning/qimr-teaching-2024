@@ -37,7 +37,7 @@ For each environment, the steps are:
 * Installing R and Python packages using R and Python (pip).
 
 There are XXX environments that need to be setup (as some versions of some software are not compatible with others):
-* qimr-teaching-2024 - for use with Voyager/Clustering/etc in R.
+* qimr-teaching-2024 - for use with material 001 and 002 (Voyager/Clustering/etc in R).
 * 
 
 # Package Managers
