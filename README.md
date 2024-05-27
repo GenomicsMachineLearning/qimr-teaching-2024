@@ -28,7 +28,13 @@
 
 # Installation
 
-To use the notebooks we require using a Conda package manager (or compatible tool like Mamba or Micromamba).
+To use the notebooks we require using a Conda package manager (or compatible tool like Mamba or Micromamba),
+installing packages with Conda and then installing additional packages directly into R and Python.
+
+For each environment, the steps are:
+* Download and install a package manager (Conda),
+* Install packages with conda (using an environment YAML file), and
+* Installing R and Python packages using R and Python (pip).
 
 There are XXX environments that need to be setup (as some versions of some software are not compatible with others):
 * qimr-teaching-2024 - for use with Voyager/Clustering/etc in R.
