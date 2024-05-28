@@ -45,7 +45,8 @@ $ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
 
 Go to the teaching materials directory:
 ```
-cd /XXX/XXX
+git clone https://github.com/GenomicsMachineLearning/qimr-teaching.git
+cd qimr-teaching
 ```
 
 ## Start a new runner node
@@ -148,7 +149,8 @@ $ R
 
 Python Dependencies:
 ```
-$ python -m pip install ucdeconvolve igraph leidenalg
+$ python -m pip install poetry
+$ poetry install
 ```
 
 # Additional Information (Not Required for Course Participant)
