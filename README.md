@@ -30,12 +30,12 @@ An overview of the materials to be covered in this course:
 ## Log into the HPC with MacOS
 SSH locally:
 ```
-$ ssh -X [username]@hpcpbs01
+$ ssh -Y [username]@hpcpbs01
 ```
 
 SSH into from VPC:
 ```
-$ ssh -X [username]@hpcpbs01.adqimr.ad.lan
+$ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
 ```
 
 Go to the teaching materials directory:
