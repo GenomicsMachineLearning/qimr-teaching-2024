@@ -119,18 +119,29 @@ This installs:
 ### Using a package manager with and an environment YAML file (Recommended)
 
 Windows:
+
+In your default conda directory:
 ```
 C:\> conda env create --name qimr-teaching-2024 --file=environment-windows.yml -y
 ```
 
 MacOS:
+
+In your default conda directory:
 ```
 $ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-macos.yml -y
 ```
 
 Linux:
+
+In your default conda directory:
 ```
 $ conda env create --name qimr-teaching-2024 --file=environment-linux.yml -y
+```
+
+In a custom directory:
+```
+$ conda create --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-linux.yml
 ```
 
 ## Install Environment Specific Dependencies
@@ -177,7 +188,7 @@ $ micromamba create -p [some-directory]/conda-envs/qimr-teaching-2024 python=3.1
 $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 ```
 
-Replace the calls below with "micromamba" instaed of "conda".
+Replace the calls below with "micromamba" instead of "conda".
 
 ### Install Dependencies
 
