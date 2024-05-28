@@ -25,10 +25,15 @@ An overview of the materials to be covered in this course:
 
 ## Log into the HPC with Windows
 
+* Download and Install MobaXterm
+  * https://mobaxterm.mobatek.net/
 * Use MobaXterm to connect to hpcpbs01
 
 ## Log into the HPC with MacOS
-SSH locally:
+
+* Download and install XQuartz https://www.xquartz.org/
+
+In a terminal, use SSH locally:
 ```
 $ ssh -Y [username]@hpcpbs01
 ```
