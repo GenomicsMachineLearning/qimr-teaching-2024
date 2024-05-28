@@ -1,4 +1,4 @@
-name: qimr-teaching-2024
+name:
 channels:
 - bioconda
 - conda-forge
@@ -45,6 +45,7 @@ dependencies:
 - bioconductor-biocparallel=1.36.0
 - bioconductor-biocsingular=1.18.0
 - bioconductor-bluster=1.12.0
+- bioconductor-complexheatmap=2.18.0
 - bioconductor-data-packages=20231203
 - bioconductor-delayedarray=0.28.0
 - bioconductor-delayedmatrixstats=1.24.0
@@ -56,6 +57,7 @@ dependencies:
 - bioconductor-genomicranges=1.54.1
 - bioconductor-glmgampoi=1.14.0
 - bioconductor-hdf5array=1.30.0
+- bioconductor-hoodscanr=1.0.0
 - bioconductor-iranges=2.36.0
 - bioconductor-limma=3.58.1
 - bioconductor-matrixgenerics=1.14.0
@@ -72,6 +74,7 @@ dependencies:
 - bioconductor-singlecellexperiment=1.24.0
 - bioconductor-sparsearray=1.2.2
 - bioconductor-sparsematrixstats=1.14.0
+- bioconductor-spatialexperiment=1.12.0
 - bioconductor-splatter=1.26.0
 - bioconductor-summarizedexperiment=1.32.0
 - bioconductor-xvector=0.42.0
@@ -128,9 +131,11 @@ dependencies:
 - get-annotations=0.1.2
 - gettext=0.22.5
 - gettext-tools=0.22.5
+- gflags=2.2.2
 - gfortran_impl_linux-64=13.2.0
 - ghostscript=10.03.1
 - giflib=5.2.2
+- glog=0.7.0
 - glpk=5.0
 - gmp=6.3.0
 - graphite2=1.3.13
@@ -190,9 +195,13 @@ dependencies:
 - ld_impl_linux-64=2.40
 - legacy-api-wrap=1.4
 - lerc=4.0.0
-- libabseil=20240116.2
+- libabseil=20240116.2=
 - libaec=1.1.3
 - libarchive=3.7.4
+- libarrow=14.0.2
+- libarrow-acero=14.0.2
+- libarrow-dataset=14.0.2
+- libarrow-substrait=14.0.2
 - libasprintf=0.22.5
 - libasprintf-devel=0.22.5
 - libblas=3.9.0
@@ -206,6 +215,7 @@ dependencies:
 - libdeflate=1.20
 - libedit=3.1.20191231
 - libev=4.33
+- libevent=2.1.12
 - libexpat=2.6.2
 - libffi=3.4.2
 - libgcc=7.2.0
@@ -234,6 +244,7 @@ dependencies:
 - libnghttp2=1.58.0
 - libnsl=2.0.1
 - libopenblas=0.3.27
+- libparquet=14.0.2
 - libpng=1.6.43
 - libpq=16.3
 - libprotobuf=4.25.3
@@ -247,9 +258,11 @@ dependencies:
 - libssh2=1.11.0
 - libstdcxx-devel_linux-64=13.2.0
 - libstdcxx-ng=13.2.0
+- libthrift=0.19.0
 - libtiff=4.6.0
 - libudunits2=2.2.28
 - libunistring=0.9.10
+- libutf8proc=2.8.0
 - libuuid=2.38.1
 - libv8=8.9.83
 - libwebp=1.4.0
@@ -289,6 +302,7 @@ dependencies:
 - numpy=1.26.4
 - openjpeg=2.5.2
 - openssl=3.3.0
+- orc=2.0.1
 - overrides=7.7.0
 - packaging=24.0
 - pandas=2.2.2
@@ -357,6 +371,7 @@ dependencies:
 - qtpy=2.4.1
 - r-abind=1.4_5
 - r-anndata=0.7.5.4
+- r-arrow=14.0.1
 - r-askpass=1.2.0
 - r-assertthat=0.2.1
 - r-backports=1.5.0
@@ -377,15 +392,19 @@ dependencies:
 - r-cachem=1.1.0
 - r-cairo=1.6_2
 - r-callr=3.7.6
+- r-car=3.1_2
+- r-cardata=3.0_5
 - r-caret=6.0_94
 - r-catools=1.18.2
 - r-cellranger=1.1.0
 - r-checkmate=2.3.1
+- r-circlize=0.4.16
 - r-class=7.3_22
 - r-classint=0.4_10
 - r-cli=3.6.2
 - r-clipr=0.8.0
 - r-clock=0.7.0
+- r-clue=0.3_65
 - r-cluster=2.1.6
 - r-coda=0.19_4.1
 - r-codetools=0.2_20
@@ -394,6 +413,7 @@ dependencies:
 - r-concaveman=1.1.0
 - r-conflicted=1.2.0
 - r-conquer=1.3.3
+- r-corrplot=0.92
 - r-cowplot=1.1.3
 - r-cpp11=0.4.7
 - r-crayon=1.5.2
@@ -432,6 +452,7 @@ dependencies:
 - r-fontawesome=0.5.2
 - r-forcats=1.0.0
 - r-foreach=1.5.2
+- r-foreign=0.8_86
 - r-formatr=1.14
 - r-fs=1.6.4
 - r-futile.logger=1.4.3
@@ -447,17 +468,24 @@ dependencies:
 - r-geometries=0.2.4
 - r-gert=2.0.1
 - r-getopt=1.20.4
+- r-getoptlong=1.0.5
+- r-ggalluvial=0.12.5
 - r-ggbeeswarm=0.7.2
 - r-ggcorrplot=0.1.4.1
 - r-ggforce=0.4.2
 - r-ggfun=0.1.4
+- r-ggnetwork=0.5.13
 - r-ggnewscale=0.4.10
 - r-ggplot2=3.5.1
+- r-ggpubr=0.6.0
 - r-ggrastr=1.0.2
 - r-ggrepel=0.9.5
 - r-ggridges=0.5.6
+- r-ggsci=3.1.0
+- r-ggsignif=0.6.4
 - r-gh=1.4.1
 - r-gitcreds=0.1.2
+- r-globaloptions=0.1.2
 - r-globals=0.16.3
 - r-glue=1.7.0
 - r-goftest=1.2_3
@@ -474,7 +502,7 @@ dependencies:
 - r-hdf5r=1.3.10
 - r-here=1.0.1
 - r-hexbin=1.28.3
-- r-highr=0.10
+- r-highr=0.11
 - r-hms=1.1.3
 - r-htmltools=0.5.8.1
 - r-htmlwidgets=1.6.4
@@ -517,8 +545,9 @@ dependencies:
 - r-magick=2.8.3
 - r-magrittr=2.0.3
 - r-maps=3.4.2
+- r-maptools=1.1_8
 - r-mass=7.3_60
-- r-matrix=1.6_5
+- r-matrix=1.6_3
 - r-matrixmodels=0.5_3
 - r-matrixstats=1.3.0
 - r-mcmc=0.9_8
@@ -533,6 +562,7 @@ dependencies:
 - r-modelr=0.1.11
 - r-munsell=0.5.1
 - r-music=0.2.0
+- r-network=1.18.2
 - r-nlme=3.1_164
 - r-nloptr=2.0.3
 - r-nmf=0.21.0
@@ -546,6 +576,7 @@ dependencies:
 - r-patchwork=1.2.0
 - r-pbapply=1.7_2
 - r-pbdzmq=0.3_11
+- r-pbkrtest=0.5.2
 - r-pbmcapply=1.5.1
 - r-pheatmap=1.0.12
 - r-pillar=1.9.0
@@ -559,6 +590,7 @@ dependencies:
 - r-plyr=1.8.9
 - r-png=0.1_8
 - r-polyclip=1.10_6
+- r-polynom=1.4_1
 - r-praise=1.0.0
 - r-presto=1.0.0
 - r-prettyunits=1.2.0
@@ -606,8 +638,10 @@ dependencies:
 - r-reprex=2.1.0
 - r-reshape2=1.4.4
 - r-reticulate=1.37.0
+- r-rio=1.1.0
 - r-rjson=0.2.21
 - r-rlang=1.1.3
+- r-rle=0.9.2
 - r-rmapshaper=0.5.0
 - r-rmarkdown=2.27
 - r-rngtools=1.5.2
@@ -617,6 +651,7 @@ dependencies:
 - r-rprojroot=2.0.4
 - r-rspectra=0.16_1
 - r-rsqlite=2.3.4
+- r-rstatix=0.7.2
 - r-rstudioapi=0.16.0
 - r-rsvd=1.0.5
 - r-rtsne=0.17
@@ -631,13 +666,14 @@ dependencies:
 - r-sctransform=0.4.1
 - r-selectr=0.4_2
 - r-sessioninfo=1.2.2
-- r-seurat=5.1.0
-- r-seuratobject=5.0.2
+- r-seurat=5.0.3
+- r-seuratobject=5.0.1
 - r-sf=1.0_16
 - r-sfheaders=0.4.4
 - r-shape=1.4.6.1
 - r-shiny=1.8.1.1
 - r-sitmo=2.0.2
+- r-sna=2.7_2
 - r-snow=0.4_4
 - r-sourcetools=0.1.7_1
 - r-sp=2.1_4
@@ -653,9 +689,11 @@ dependencies:
 - r-spdep=1.3_3
 - r-squarem=2021.1
 - r-statmod=1.5.0
+- r-statnet.common=4.9.0
 - r-stringi=1.8.4
 - r-stringr=1.5.1
 - r-survival=3.6_4
+- r-svglite=2.1.3
 - r-sys=3.4.2
 - r-systemfonts=1.1.0
 - r-tensor=1.5
@@ -690,6 +728,7 @@ dependencies:
 - r-whisker=0.4.1
 - r-withr=3.0.0
 - r-wk=0.9.1
+- r-writexl=1.5.0
 - r-xfun=0.44
 - r-xml2=1.3.6
 - r-xopen=1.0.1
