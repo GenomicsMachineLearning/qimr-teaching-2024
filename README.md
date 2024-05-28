@@ -21,6 +21,46 @@ An overview of the materials to be covered in this course:
 * 008 - Deep Learning [Xiao & Quan]
   * 
 
+# Acccessing the QIMR HPC
+
+## Log into the HPC with Windows
+
+* Download and Install MobaXterm
+  * https://mobaxterm.mobatek.net/
+* Use MobaXterm to connect to hpcpbs01
+
+## Log into the HPC with MacOS
+
+* Download and install XQuartz https://www.xquartz.org/
+
+In a terminal, use SSH locally:
+```
+$ ssh -Y [username]@hpcpbs01
+```
+
+SSH into from VPC:
+```
+$ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
+```
+
+Go to the teaching materials directory:
+```
+cd /XXX/XXX
+```
+
+## Start a new runner node
+
+```
+$ qsub -IX -l ncpus=2,mem=32GB,walltime=8:00:00
+```
+
+## Run IPython in a Conda environment
+
+```
+$ micromamba /path/conda-env/XXX
+$ ipython
+```
+
 # Data
 
 * One Visium, one Xenium, one CosmiX
