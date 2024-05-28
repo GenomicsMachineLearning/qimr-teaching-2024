@@ -107,6 +107,7 @@ channels:
   - conda-forge
   - bioconda
   - defaults
+  - r
 channel_priority: flexible
 ```
 
