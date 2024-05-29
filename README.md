@@ -126,7 +126,7 @@ In a custom directory:
 $ conda create --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-linux.yml
 ```
 
-### Recreating Conda Environment YAML
+### Recreating the Conda Environment YAML
 
 To create the Conda environment we need to install Conda managed dependences and then installing additional 
 packages directly into R and Python.
