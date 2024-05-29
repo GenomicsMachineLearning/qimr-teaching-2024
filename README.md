@@ -4,7 +4,7 @@ An overview of the materials to be covered in this course:
 * 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
   * Voyager - Cell Segmentation, Visualising QC, Clustering, Moran-I, etc.
 * 002 - Spatial Statistics (Andrew Newman)
-  * Voyager - Cell Segmentation, Visualising QC, Moran-I, etc.
+  * Voyager - Cell Segmentation, Visualising QC, Moran's-I, etc.
 * 003 - Single cell visualization (Levi & Xiao)
   * Naspari for CosMX (Levi)
   * stLearn/Xenium Explorer for Xenium/CODEX (Xiao)
@@ -157,6 +157,7 @@ $ R
 > remotes::install_version('wrMisc', dependencies = FALSE)
 > remotes::install_github('YingMa0107/CARD', dependencies = FALSE)
 > remotes::install_github('jinworks/CellChat', dependencies = FALSE)
+> remotes::install_github('navinlabcode/copykat', dependencies = FALSE)
 ```
 
 Python Dependencies:
@@ -195,7 +196,7 @@ Replace the calls below with "micromamba" instead of "conda".
 R Dependencies:
 ```
 $ conda install -c bioconda bioconductor-scater bioconductor-scran bioconductor-splatter bioconductor-edgeR bioconductor-bluster bioconductor-BiocFileCache bioconductor-glmGamPoi bioconductor-SingleCellExperiment bioconductor-SummarizedExperiment bioconductor-ScaledMatrix bioconductor-BiocParallel bioconductor-ebimage r-anndata -y
-$ conda install -c conda-forge r-ggalluvial r-svglite r-sna r-ggpubr r-ggnetwork r-matrix=1.6-3 r-scico r-ggnewscale r-magick r-rjson r-ragg r-units r-stringi r-sf r-s2 r-reticulate r-stringi r-tidyverse r-r.utils r-Seurat r-SeuratObject r-sctransform r-proj r-rcpptoml r-spdep r-lme4 r-ggrastr r-dbscan r-hdf5r r-optparse r-memuse r-sfheaders r-zeallot r-rmapshaper -y
+$ conda install -c conda-forge r-parallelDist r-dlm r-mixtools r-ggalluvial r-svglite r-sna r-ggpubr r-ggnetwork r-matrix=1.6-3 r-scico r-ggnewscale r-magick r-rjson r-ragg r-units r-stringi r-sf r-s2 r-reticulate r-stringi r-tidyverse r-r.utils r-Seurat r-SeuratObject r-sctransform r-proj r-rcpptoml r-spdep r-lme4 r-ggrastr r-dbscan r-hdf5r r-optparse r-memuse r-sfheaders r-zeallot r-rmapshaper -y
 $ conda install -c bioconda presto r-presto bioconductor-dropletutils r-MuSiC bioconductor-hoodscanr -y 
 $ conda install -c conda-forger-mcmcpack r-fields r-concaveman r-scatterpie r-ggcorrplot r-nnls r-pbmcapply r-NMF -y
 ```
