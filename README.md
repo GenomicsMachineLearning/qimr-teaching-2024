@@ -1,28 +1,28 @@
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
-* 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
+* Module 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
   * 
-* 002 - Spatial Statistics (Andrew Newman)
+* Module 002 - Spatial Statistics (Andrew Newman)
   * A spatial view of quality control,
   * Introduction to spatial statistics, 
   * Creating and Visualising the neighbourhood graph, 
   * Global and local spatial correlation including visualising the data distribution, and 
   * Multispati PCA (Spatially informed PCA).
-* 003 - Single cell visualization (Levi & Xiao)
+* Module 003 - Single cell visualization (Levi & Xiao)
   * Naspari for CosMX (Levi)
   * stLearn/Xenium Explorer for Xenium/CODEX (Xiao)
-* 004 - Multimodalities 
+* Module 004 - Multimodalities 
   * Inferred Copy Number Variation (Prakrithi)
   * Spatial metabolomics + transcriptomics (Andrew)
   * CODEX + Visium (Xiao)
-* 005 - Community Analysis [Feng]
+* Module 005 - Community Analysis [Feng]
   *
-* 006 - Spatial Proteomics [Xiao & Quan]
+* Module 006 - Spatial Proteomics [Xiao & Quan]
   * 
-* 007 - cell-cell interaction analysis [Onkar - Levi]
+* Module 007 - cell-cell interaction analysis [Onkar - Levi]
   * 
-* 008 - Deep Learning [Xiao & Quan]
+* Module 008 - Deep Learning [Xiao & Quan]
   * 
 
 # Accessing the Training Materials on the QIMR HPC
@@ -80,7 +80,38 @@ $ ipython
 
 * One Visium, one Xenium, one CosmiX
   * Melanoma - single cell, Visium, Xenium, and CosmiX.
-* Instructions on how to download
+* Instructions on how to download.
+
+# Module 001 - Clustering and Cell Types
+
+# Module 002 - Spatial Statistics
+
+From the workshop directory go to the notebooks directory and being an R prompt:
+```
+$ cd 002-spatial-statistics/notebooks
+$ R
+> source(startup.R)
+```
+
+Test an image is displayed when you execute the following:
+```
+> Voyager::plotImage(raw_sfe)
+```
+
+You should be able to open the "voyager.ipyn" file in your IDE or web browser and follow the instructions.
+
+# Module 003 - Single cell Visualization 
+
+# Module 004 - Multimodalities 
+
+# Module 005 - Community Analysis 
+
+# Module 006 - Spatial Proteomics
+
+# Module 007 - cell-cell interaction analysis
+   
+# Module 008 - Deep Learning
+ 
 
 # Additional Information (Not Required for Course Participant)
 
