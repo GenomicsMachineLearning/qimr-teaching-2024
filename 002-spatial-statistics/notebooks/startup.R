@@ -24,10 +24,10 @@ theme_set(theme_bw())
 custom_theme <- function() {
   theme_bw() +
     theme(
-      legend.text = element_text(size = 14),
-      legend.title = element_text(size = 16, face = "bold"),
-      axis.text = element_text(size = 12),
-      axis.title = element_text(size = 14, face = "bold"),
+      legend.text = element_text(size = 9),
+      legend.title = element_text(size = 12, face = "bold"),
+      axis.text = element_text(size = 8),
+      axis.title = element_text(size = 10, face = "bold"),
       legend.position = "right",
       legend.box.just = "right"
     )
