@@ -55,7 +55,7 @@ $ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
 ## Start a new runner node
 
 ```
-$ qsub -IX -l ncpus=2,mem=32GB,walltime=8:00:00
+$ qsub -IX -l ncpus=4,mem=32GB,walltime=8:00:00
 ```
 
 ## Using a Conda Environment
@@ -66,14 +66,6 @@ There is one Conda environments that will be used for all training materials:
 ```
 $ [some-directory]/micromamba/micromamba shell init
 $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
-```
-
-## Run IPython in a Conda environment
-
-Go to the teaching materials directory and run iPython:
-```
-$ cd [some-directory]
-$ ipython
 ```
 
 # Data
@@ -100,7 +92,12 @@ Test an image is displayed when you execute the following:
 
 You should be able to open the "voyager.ipyn" file in your IDE or web browser and follow the instructions.
 
-# Module 003 - Single cell Visualization 
+# Module 003 - Single Cell Visualization 
+
+```
+$ cd 003-single-cell
+$ ipython
+```
 
 # Module 004 - Multimodalities 
 
@@ -108,10 +105,9 @@ You should be able to open the "voyager.ipyn" file in your IDE or web browser an
 
 # Module 006 - Spatial Proteomics
 
-# Module 007 - cell-cell interaction analysis
+# Module 007 - Cell-Cell Interaction
    
 # Module 008 - Deep Learning
- 
 
 # Additional Information (Not Required for Course Participant)
 
