@@ -33,8 +33,8 @@ custom_theme <- function() {
     )
 }
 
-show_plot <- function(plot, filename) {
-  png(filename = filename, width = 800, height = 400, res = 100)
+show_plot <- function(plot, filename, width = 800, height = 400, res = 100) {
+  png(filename = filename, width = width, height = height, res = res)
   print(plot)
   dev.off()
   img <- readPNG(filename)
