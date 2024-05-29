@@ -4,8 +4,7 @@ An overview of the materials to be covered in this course:
 * 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
   * 
 * 002 - Spatial Statistics (Andrew Newman)
-  * Spatial view of QC 
-  * Using the tissue mask to only select the region of interest, 
+  * A spatial view of quality control,
   * Introduction to spatial statistics, 
   * Creating and Visualising the neighbourhood graph, 
   * Global and local spatial correlation including visualising the data distribution, and 
