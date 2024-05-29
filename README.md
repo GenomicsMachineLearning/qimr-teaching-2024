@@ -90,7 +90,7 @@ From the workshop directory go to the notebooks directory and being an R prompt:
 ```
 $ cd 002-spatial-statistics/notebooks
 $ R
-> source(startup.R)
+> source('./startup.R')
 ```
 
 Test an image is displayed when you execute the following:
