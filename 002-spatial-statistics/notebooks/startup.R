@@ -33,11 +33,12 @@ custom_theme <- function() {
     )
 }
 
-show_plot <- function(plot, filename, width = 800, height = 400, res = 100) {
-  png(filename = filename, width = width, height = height, res = res)
+show_plot <- function(plot, width = 800, height = 400, res = 100) {
+  temp_filename <- tempfile(fileext = ".png")
+  grDevices::png(filename = temp_filename, width = width, height = height, res = res)
   print(plot)
   dev.off()
-  img <- readPNG(filename)
+  img <- png::readPNG(temp_filename)
   grid::grid.raster(img)
 }
 
