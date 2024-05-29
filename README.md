@@ -186,15 +186,6 @@ Python Dependencies:
 $ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel scanpy -y
 ```
 
-**Follow the "Install Environment Specific Dependencies" section.**
-
-#### Export Environment File
-
-In order to use the environments again, save the conda environment file and remove the fingerprint information:
-```
-$ conda env export > environments-[linux|windows|macos].yml
-```
-
 ### Installing Language Specific Dependencies
 This install dependencies that aren't managed by packages and need to be installed directly from source.
 
@@ -216,3 +207,11 @@ Python Dependencies:
 $ python -m pip install poetry
 $ poetry install
 ```
+
+#### Export Environment File
+
+In order to use the environments again, save the conda environment file and remove the fingerprint information:
+```
+$ conda env export > environments-[linux|windows|macos].yml
+```
+
