@@ -2,9 +2,13 @@
 
 An overview of the materials to be covered in this course:
 * 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
-  * Voyager - Cell Segmentation, Visualising QC, Clustering, Moran-I, etc.
+  * 
 * 002 - Spatial Statistics (Andrew Newman)
-  * Voyager - Cell Segmentation, Visualising QC, Moran's-I, etc.
+  * A spatial view of quality control,
+  * Introduction to spatial statistics, 
+  * Creating and Visualising the neighbourhood graph, 
+  * Global and local spatial correlation including visualising the data distribution, and 
+  * Multispati PCA (Spatially informed PCA).
 * 003 - Single cell visualization (Levi & Xiao)
   * Naspari for CosMX (Levi)
   * stLearn/Xenium Explorer for Xenium/CODEX (Xiao)
