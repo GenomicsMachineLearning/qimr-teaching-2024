@@ -22,6 +22,8 @@ stlearn = {git = "https://github.com/xiao233333/stLearn.git", branch = "update-d
 monkeybread = "^1.0.3"
 harmonypy = "^0.0.9"
 matplotlib = "<3.9.0"
+netgraph = "^4.13.2"
+python-louvain = "^0.16"
 
 [build-system]
 requires = ["poetry-core"]
