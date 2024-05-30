@@ -46,9 +46,15 @@ show_plot <- function(plot, width = 800, height = 400, res = 100) {
 # Setup plotting resolution.
 options(repr.plot.width = 20, repr.plot.height = 16)
 
+#Original way to load Visium Data
+#raw_sfe <- SpatialFeatureExperiment::read10xVisiumSFE(dirs = skin_data_dir, samples = ".", type = "sparse", data = "raw")
+#Voyager::plotImage(raw_sfe)
+#transposed_raw_sfe <- SpatialFeatureExperiment::transpose(raw_sfe)
+
 # Setup Data Directory
 data_dir <- R.utils::getAbsolutePath('../../data')
 mouse_dir <- glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/outs")
+skin_A2_dir <- glue::glue("{data_dir}/Visium_Skin_A2/outs")
 raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb.rds"))
 transposed_raw_sfe <- raw_sfe
 
