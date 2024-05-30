@@ -60,7 +60,7 @@ colData(transposed_raw_sfe)$nGenes <- colSums(counts(transposed_raw_sfe) > 0)
 colData(transposed_raw_sfe)$nCounts <- colSums(counts(transposed_raw_sfe))
 
 # Find mitochdonrial genes
-is_mt <- str_detect(rowData(transposed_raw_sfe)$symbol, "^mt-")
+is_mt <- str_detect(rowData(transposed_raw_sfe)$symbol, "^MT-")
 qc_sfe <- scuttle::addPerCellQCMetrics(transposed_raw_sfe, subsets = list(mito = is_mt))
 
 # Normally MITO % is set to 20 - see what effect this has compared to 30.
