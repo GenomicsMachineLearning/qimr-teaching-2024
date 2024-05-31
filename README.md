@@ -71,9 +71,7 @@ $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 
 # Data
 
-* One Visium, one Xenium, one CosmiX
-  * Melanoma - single cell, Visium, Xenium, and CosmiX.
-* Instructions on how to download.
+* On scratch on HPC075
 
 # Module 001 - Clustering and Cell Types
 
