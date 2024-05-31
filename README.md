@@ -65,6 +65,7 @@ There is one Conda environments that will be used for all training materials:
 
 ```
 $ [some-directory]/micromamba/micromamba shell init
+$ source ~/.bashrc
 $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 ```
 
