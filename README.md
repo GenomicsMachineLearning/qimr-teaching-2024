@@ -79,7 +79,6 @@ From the workshop directory go to the notebooks directory and being an R prompt:
 ```
 $ cd 001-clustering-cell-typing/notebooks
 $ R
-> source('./startup.R')
 ```
 
 # Module 002 - Spatial Statistics
