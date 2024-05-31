@@ -3,7 +3,7 @@
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
-* Module 001 - Introducing Spatial Analysis with Seurat
+* Module 001 - Introducing Spatial Analysis
   * Preprocessing - Andrew C
   * Clustering and Cell Typing - Andrew C
   * Deconvolution and Label Transfer - Andrew C
@@ -232,6 +232,7 @@ $ R
 > remotes::install_github("pachterlab/Voyager", ref="devel", dependencies=FALSE)
 > remotes::install_version('wrMisc', dependencies = FALSE)
 > remotes::install_github('YingMa0107/CARD', dependencies = FALSE)
+> remotes::
 > remotes::install_github('jinworks/CellChat', dependencies = FALSE)
 > remotes::install_github('navinlabcode/copykat', dependencies = FALSE)
 ```
@@ -240,6 +241,13 @@ Python Dependencies:
 ```
 $ python -m pip install poetry
 $ poetry install
+```
+
+### Cloning an Environment
+An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
+
+```
+$ conda create --prefix /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-2024 --clone [some-directory]/teaching2024-winter-qimr/conda-envs/xiao_pyr2
 ```
 
 #### Export Environment File
