@@ -2,28 +2,23 @@
 
 An overview of the materials to be covered in this course:
 * Module 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
-  * 
-* Module 002 - Spatial Statistics (Andrew Newman)
-  * A spatial view of quality control,
-  * Introduction to spatial statistics, 
-  * Creating and Visualising the neighbourhood graph, 
-  * Global and local spatial correlation including visualising the data distribution, and 
-  * Multispati PCA (Spatially informed PCA).
-* Module 003 - Spatial Single cell visualization (Levi & Xiao)
-  * spatialdata (Python) for CosMX (Levi)
-  * stLearn/Xenium Explorer for Xenium/CODEX (Xiao)
-* Module 004 - Multimodalities 
-  * Inferred Copy Number Variation (Prakrithi)
-  * Spatial metabolomics + transcriptomics (Andrew)
-  * CODEX + Visium (Xiao)
-* Module 005 - Community Analysis [Feng]
-  *
-* Module 006 - Spatial Proteomics [Xiao & Quan]
-  * 
-* Module 007 - cell-cell interaction analysis [Onkar - Levi]
-  * 
-* Module 008 - Deep Learning [Xiao & Quan]
-  * 
+  * Preprocessing - Andrew C
+  * Clustering and Cell Typing - Andrew C
+  * Deconvolution and Label Transfer - Andrew C
+* Module 002 - Spatial Statistics
+  * Tissue Segmentation - Andrew N
+  * Spatial Statistics with Voyager - Andrew N
+* Module 003 - Downstream Analysis
+  * Inferring Malignant cells using CNV profiles - Prakrithi
+  * Community Analysis - Feng
+  * Cell-cell interaction analysis - Onkar & Levi
+* Module 004 - Spatial Single cell visualization
+  * spatialdata - Levi
+  * stLearn/Xenium Explorer - Xiao
+* Module 005 - Spatial Proteomics
+  * - Xiao & Quan
+* Module 006 - Deep Learning
+  * -Xiao & Quan
 
 # Accessing the Training Materials on the QIMR HPC
 
