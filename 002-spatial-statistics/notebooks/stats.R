@@ -12,6 +12,7 @@ hvgs <- scran::getTopHVGs(dec, n = 2000)
 sfe_tissue <- Voyager::colDataUnivariate(sfe_tissue, features = c("nCounts", "nGenes"), colGraphName = "graph1", type = "moran")
 sfe_tissue <- Voyager::runMoransI(sfe_tissue, features = hvgs)
 # colFeatureData(sfe_tissue)[c("nCounts", "nGenes"),]
+pos_moran <- rownames(sfe_tissue)[order(rowData(sfe_tissue)$moran_sample01, decreasing = TRUE)[1:6]]
 neg_moran <- rownames(sfe_tissue)[order(rowData(sfe_tissue)$moran_sample01, decreasing = FALSE)[1:6]]
 sfe_tissue <- Voyager::runUnivariate(sfe_tissue, "moran.mc", neg_moran, colGraphName = "graph1", nsim = 200, alternative = "less")
 colGraph(sfe_tissue, "knn5") <- SpatialFeatureExperiment::findSpatialNeighbors(sfe_tissue, method = "knearneigh", dist_type = "idw", k = 5, style = "W")
