@@ -101,7 +101,7 @@ You should be able to open the "voyager.ipyn" file in your IDE or web browser an
 # Module 003 - Spatial Single Cell Visualization 
 
 ```
-$ cd 003-single-cell
+$ cd 003-spatial-single-cell
 $ ipython
 ```
 
