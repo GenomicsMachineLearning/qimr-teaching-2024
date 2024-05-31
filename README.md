@@ -9,7 +9,7 @@ An overview of the materials to be covered in this course:
   * Tissue Segmentation - Andrew N
   * Spatial Statistics with Voyager - Andrew N
 * Module 003 - Downstream Analysis
-  * Inferring Malignant cells using CNV profiles - Prakrithi
+  * Inferring Malignant Cells using CNV Profiles - Prakrithi
   * Community Analysis - Feng
   * Cell-cell interaction analysis - Onkar & Levi
 * Module 004 - Spatial Single cell visualization
