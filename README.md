@@ -1,7 +1,7 @@
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
-* Module 001 - Clustering/Cell Typing/Label Transfer/Deconvolution (Andrew Causer)
+* Module 001 - Introducing Spatial Analysis with Seurat
   * Preprocessing - Andrew C
   * Clustering and Cell Typing - Andrew C
   * Deconvolution and Label Transfer - Andrew C
