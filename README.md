@@ -13,9 +13,9 @@ An overview of the materials to be covered in this course:
 * Module 003 - Downstream Analysis
   * Inferring Malignant Cells using CNV Profiles - Prakrithi
   * Community Analysis - Feng
-  * Cell-cell interaction analysis - Onkar & Levi
-* Module 004 - Spatial Single Cell Visualization
-  * spatialdata - Levi
+  * Cell-Cell Interaction Analysis - Onkar & Levi
+* Module 004 - Spatial Single Cell Visualisation
+  * Xenium/CosMx Visualisation - Levi
   * stLearn/Xenium Explorer - Xiao
 * Module 005 - Spatial Proteomics
   * - Xiao & Quan
