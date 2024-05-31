@@ -134,6 +134,10 @@ We have installed all sofware needed for the training:
 
 ### Using a package manager with and an environment YAML file (Recommended)
 
+The steps are:
+* Creating a new environment with the OS specific YAML file,
+* Installing any extra software directly from source (see "Installing Dependencies from Source").
+
 Windows:
 
 In your default conda directory:
@@ -205,7 +209,7 @@ $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 
 Replace the calls below with "micromamba" instead of "conda".
 
-#### Install Dependencies
+### Install Dependencies
 
 R Dependencies:
 ```
@@ -220,7 +224,7 @@ Python Dependencies:
 $ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel scanpy -y
 ```
 
-### Installing Language Specific Dependencies
+### Installing Dependencies from Source
 This install dependencies that aren't managed by packages and need to be installed directly from source.
 
 R Dependencies:
@@ -249,7 +253,7 @@ An example of copying it from group directory (P3903) to a temporary directory o
 $ conda create --prefix /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-2024 --clone [some-directory]/teaching2024-winter-qimr/conda-envs/xiao_pyr2
 ```
 
-#### Export Environment File
+### Export Environment File
 
 In order to use the environments again, save the conda environment file and remove the fingerprint information:
 ```
