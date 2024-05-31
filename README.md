@@ -1,4 +1,4 @@
-![Genomics and Machine Learning Lab, QIMR and UQ Logo](images/violin_1.png)
+![Genomics and Machine Learning Lab, QIMR and UQ Logo](images/logo.png)
 
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
