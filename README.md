@@ -18,9 +18,9 @@ An overview of the materials to be covered in this course:
   * Xenium/CosMx Visualisation - Levi
   * stLearn/Xenium Explorer - Xiao
 * Module 005 - Spatial Proteomics
-  * - Xiao & Quan
+  * Xiao & Quan
 * Module 006 - Deep Learning
-  * -Xiao & Quan
+  * Xiao & Quan
 
 # Accessing the Training Materials on the QIMR HPC
 
