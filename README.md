@@ -26,8 +26,8 @@ An overview of the materials to be covered in this course:
 
 The steps you will need to perform:
 * Log into the HPC,
-* Setup and use a runtime environment (using Conda), and
-* Running iPython.
+* Use a runtime environment, and
+* Run iPython or R.
 
 ## Log into the HPC with Windows
 
