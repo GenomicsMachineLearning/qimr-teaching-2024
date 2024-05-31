@@ -68,8 +68,8 @@ $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 
 # Data
 
-* On scratch on HPC075
-* Link to public data on AWS - tar.gz for VIsium and Xenium.
+* On scratch on HPC075 (all data is here on the training day)
+* Also available via link to public data on AWS - tar.gz for VIsium and Xenium (for you to work at another time).
 
 # Module 001 - Clustering and Cell Types
 
@@ -121,14 +121,14 @@ who are used to using package managers.
 
 ### Setup Conda
 
-Follow the instructions to download and install Conda: https://www.anaconda.com/download/success
+We have setup the environment for you. Follow the instructions to download and install Conda: https://www.anaconda.com/download/success
 
 ### Setup Micromamba
 
-Follow the instructions to install Micromamba: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+We have setup the environment for you. Follow the instructions to install Micromamba: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
 
 ### Installing Managed Dependencies
-This installs:
+We have installed all sofware needed for the training:
  * R and its dependencies for Seurat v5,
  * Python and dependencies for Jupyter.
 
