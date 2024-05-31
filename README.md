@@ -232,7 +232,6 @@ $ R
 > remotes::install_github("pachterlab/Voyager", ref="devel", dependencies=FALSE)
 > remotes::install_version('wrMisc', dependencies = FALSE)
 > remotes::install_github('YingMa0107/CARD', dependencies = FALSE)
-> remotes::
 > remotes::install_github('jinworks/CellChat', dependencies = FALSE)
 > remotes::install_github('navinlabcode/copykat', dependencies = FALSE)
 ```
