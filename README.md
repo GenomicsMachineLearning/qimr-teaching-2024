@@ -72,6 +72,7 @@ $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 # Data
 
 * On scratch on HPC075
+* Link to public data on AWS - tar.gz for VIsium and Xenium.
 
 # Module 001 - Clustering and Cell Types
 
