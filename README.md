@@ -10,7 +10,7 @@ An overview of the materials to be covered in this course:
   * Global and local spatial correlation including visualising the data distribution, and 
   * Multispati PCA (Spatially informed PCA).
 * Module 003 - Spatial Single cell visualization (Levi & Xiao)
-  * Naspari for CosMX (Levi)
+  * spatialdata (Python) for CosMX (Levi)
   * stLearn/Xenium Explorer for Xenium/CODEX (Xiao)
 * Module 004 - Multimodalities 
   * Inferred Copy Number Variation (Prakrithi)
