@@ -55,7 +55,7 @@ $ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
 ## Start a new runner node
 
 ```
-$ qsub -IX -l ncpus=4,mem=32GB,walltime=8:00:00
+$ qsub -IX -l -q spatial ncpus=4,mem=32GB,walltime=8:00:00
 ```
 
 ## Using a Conda Environment
