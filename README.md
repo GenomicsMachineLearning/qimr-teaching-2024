@@ -246,6 +246,13 @@ $ python -m pip install poetry
 $ poetry install
 ```
 
+OR:
+```
+pip install "spatialdata[extra]>=0.1.2" "torch>=2.2.2" "torchvision>=0.17.2" "lightning>=2.2.2" "pyro-ppl>=1.9.0" "squidpy>=1.4.1" "monai>=1.3.0" "plotly>=5.22.0" "sopa[baysor,cellpose,snakemake,tangram]>=1.0.14" "jupyterlab>=4.2.1" "ipywidgets>=8.1.2" "monkeybread>=1.0.3" "harmonypy>=0.0.9" "matplotlib<3.9.0" "netgraph>=4.13.2" "python-louvain>=0.16"
+pip install "git+https://github.com/xiao233333/stLearn.git@update-dependency" 
+```
+
+
 ### Cloning an Environment
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
 
