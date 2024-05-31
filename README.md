@@ -9,7 +9,7 @@ An overview of the materials to be covered in this course:
   * Creating and Visualising the neighbourhood graph, 
   * Global and local spatial correlation including visualising the data distribution, and 
   * Multispati PCA (Spatially informed PCA).
-* Module 003 - Single cell visualization (Levi & Xiao)
+* Module 003 - Spatial Single cell visualization (Levi & Xiao)
   * Naspari for CosMX (Levi)
   * stLearn/Xenium Explorer for Xenium/CODEX (Xiao)
 * Module 004 - Multimodalities 
@@ -98,7 +98,7 @@ Test an image is displayed when you execute the following:
 
 You should be able to open the "voyager.ipyn" file in your IDE or web browser and follow the instructions.
 
-# Module 003 - Single Cell Visualization 
+# Module 003 - Spatial Single Cell Visualization 
 
 ```
 $ cd 003-single-cell
