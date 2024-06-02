@@ -260,6 +260,6 @@ $ conda create --prefix /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-202
 
 In order to use the environments again, save the conda environment file and remove the fingerprint information:
 ```
-$ conda env export > environments-[linux|windows|macos].yml
+$ conda env export > environment-[linux|windows|macos].yml
 ```
 
