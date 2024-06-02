@@ -112,45 +112,38 @@ $ ipython
    
 # Module 008 - Deep Learning
 
-# Additional Information (Not Required for Course Participant)
+# Additional Information (Not Required for Course Participants)
+
+The following is not required for participation in the course but is described here to document how the
+requirements were set up and to help you install your own  environment in the future. 
 
 ## Package Managers
 
-We recommend Conda for most users and operating systems. Micromamba is included here for use on the HPC and people
-who are used to using package managers. 
+We recommend Conda package management for most users and operating systems. Micromamba is included here for use on the 
+HPC and people who are used to using Conda or other package managers. 
 
-### Setup Conda
-
-We have setup the environment for you. Follow the instructions to download and install Conda: https://www.anaconda.com/download/success
-
-### Setup Micromamba
-
-We have setup the environment for you. Follow the instructions to install Micromamba: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
-
-### Installing Managed Dependencies
-We have installed all sofware needed for the training:
- * R and its dependencies for Seurat v5,
- * Python and dependencies for Jupyter.
+Download and install either:
+* Conda: https://www.anaconda.com/download/success
+* Micromamba: https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
 
 ### Using a package manager with and an environment YAML file (Recommended)
 
 The steps are:
-* Creating a new environment with the OS specific YAML file,
-* Installing any extra software directly from source (see "Installing Dependencies from Source").
-
-Windows:
-
-In your default conda directory:
-```
-C:\> conda env create --name qimr-teaching-2024 --file=environment-windows.yml -y
-```
+* Create a new environment with the OS specific YAML file,
+* Install any extra software directly from source (see "Installing Dependencies from Source").
 
 MacOS:
-
-In your default conda directory:
 ```
 $ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-macos.yml -y
 ```
+
+In a custom directory:
+```
+$ conda create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-macos.yml
+```
+
+Currently, all dependencies are only available for x86 (Intel). If you are running an M-series CPU 
+(M1, M2, M3, M4, etc.) it will run these under emulation.
 
 Linux:
 
@@ -166,15 +159,18 @@ $ conda create --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=en
 
 ### Recreating the Conda Environment YAML
 
-To create the Conda environment we need to install Conda managed dependences and then installing additional 
-packages directly into R and Python.
+If the above YAML fails to install, or you wish to upgrade a dependency, or you wish to recreate it. Run the following
+to recreate the Conda environment. 
 
-For each environment, the steps are:
-* Download and install a package manager (Conda),
-* Install packages with conda (using an environment YAML file), and
-* Installing R and Python packages using R and Python (poetry).
+The steps are:
+* Configure the package manager,
+* Create a base environment and install packages with conda/micromamba, and
+* Installing any further source based dependencies in R and Python (using pip or poetry) directly.
 
-### Configure Conda
+#### Configuring the Package Manager
+
+Firstly, we need to configure conda/micromamba in how it resolves dependencies. We assume you've already installed the
+package manager previously.
 
 Create ~/.condarc
 
@@ -189,13 +185,16 @@ channel_priority: flexible
 
 ### Create and Activate a New Environment
 
+Next, we need to create the base environment. We're going to assume using "conda" in the following steps, but you can
+replace the calls to "conda" with "micromamba" (if that's what you're using).
+
 MacOS:
 ```
 $ conda create --name qimr-teaching-2024 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
 $ conda activate qimr-teaching-2024
 ```
 
-Windows/Linux:
+Linux:
 ```
 $ conda create --name qimr-teaching-2024 python=3.10 r-base=4.3 r-devtools -y
 $ conda activate qimr-teaching-2024
@@ -207,9 +206,7 @@ $ micromamba create -p [some-directory]/conda-envs/qimr-teaching-2024 python=3.1
 $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 ```
 
-Replace the calls below with "micromamba" instead of "conda".
-
-### Install Dependencies
+### Installing Managed Dependencies
 
 R Dependencies:
 ```
@@ -224,7 +221,7 @@ Python Dependencies:
 $ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel scanpy -y
 ```
 
-### Installing Dependencies from Source
+### Installing Unmanaged Dependencies from Source
 This install dependencies that aren't managed by packages and need to be installed directly from source.
 
 R Dependencies:
@@ -251,7 +248,6 @@ OR:
 pip install "spatialdata[extra]>=0.1.2" "torch>=2.2.2" "torchvision>=0.17.2" "lightning>=2.2.2" "pyro-ppl>=1.9.0" "squidpy>=1.4.1" "monai>=1.3.0" "plotly>=5.22.0" "sopa[baysor,cellpose,snakemake,tangram]>=1.0.14" "jupyterlab>=4.2.1" "ipywidgets>=8.1.2" "monkeybread>=1.0.3" "harmonypy>=0.0.9" "matplotlib<3.9.0" "netgraph>=4.13.2" "python-louvain>=0.16"
 pip install "git+https://github.com/xiao233333/stLearn.git@update-dependency" 
 ```
-
 
 ### Cloning an Environment
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
