@@ -80,7 +80,6 @@ From the workshop directory go to the notebooks directory and being an R prompt:
 $ R
 ```
 
-
 # Module 002 - Spatial Statistics
 
 From the workshop directory go to the notebooks directory and being an R prompt:
