@@ -5,7 +5,7 @@ spatialGraph(processed_sfe, "graph1", MARGIN = 2) <- g_all
 spatialGraph(sfe_tissue, "graph1", MARGIN = 2) <- g_specific
 colGraph(sfe_tissue, "visium") <- SpatialFeatureExperiment::findVisiumGraph(sfe_tissue, zero.policy = TRUE)
 colGraph(sfe_tissue, "visium_B") <- SpatialFeatureExperiment::findVisiumGraph(sfe_tissue, style = "B", zero.policy = TRUE)
-sfe_tissue <- Voyager::runUnivariate(sfe_tissue, type = "localG_perm", features = "Ptgds", colGraphName = "visium_B",
+sfe_tissue <- Voyager::runUnivariate(sfe_tissue, type = "localG_perm", features = "Pcp4", colGraphName = "visium_B",
                                      swap_rownames = "symbol")
 dec <- scran::modelGeneVar(sfe_tissue)
 hvgs <- scran::getTopHVGs(dec, n = 2000)
