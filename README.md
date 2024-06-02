@@ -69,11 +69,17 @@ $ micromamba activate /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-2024
 # Data
 
 * On scratch on HPC075 (all data is here on the training day)
-* Also available via link to public data on AWS - tar.gz for VIsium and Xenium (for you to work at another time).
+* Also available via link to public data on AWS - tar.gz for Visium and Xenium (for you to work at another time).
 
 # Module 001 - Clustering and Cell Types
 
-[Notebook](./001-clustering-cell-typing/notebooks/1.2_Workshop_Cell_Typing_Example.ipynb)
+View the [notebook here](./001-clustering-cell-typing/notebooks/1.2_Workshop_Cell_Typing_Example.ipynb).
+
+From the workshop directory go to the notebooks directory and being an R prompt:
+```
+$ R
+```
+
 
 # Module 002 - Spatial Statistics
 
