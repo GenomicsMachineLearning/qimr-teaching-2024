@@ -82,7 +82,7 @@ $ R
 
 # Module 002 - Spatial Statistics
 
-View the [notebook here](./002-spatial-statistics/notebooks/voayger.ipynb).
+View the [notebook here](./002-spatial-statistics/notebooks/voyager.ipynb).
 
 From the workshop directory go to the notebooks directory and being an R prompt:
 ```
