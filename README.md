@@ -61,9 +61,9 @@ There is one Conda environments that will be used for all training materials:
 * qimr-teaching-2024
 
 ```
-$ [some-directory]/micromamba/micromamba shell init
+$ /scratch/qimr-teaching-2024/micromamba/micromamba shell init
 $ source ~/.bashrc
-$ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
+$ micromamba activate /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-2024
 ```
 
 # Data
@@ -73,11 +73,7 @@ $ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
 
 # Module 001 - Clustering and Cell Types
 
-From the workshop directory go to the notebooks directory and being an R prompt:
-```
-$ cd 001-clustering-cell-typing/notebooks
-$ R
-```
+[Notebook](./001-clustering-cell-typing/notebooks/1.2_Workshop_Cell_Typing_Example.ipynb)
 
 # Module 002 - Spatial Statistics
 
