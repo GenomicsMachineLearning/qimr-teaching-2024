@@ -2,6 +2,7 @@ name:
 channels:
 - bioconda
 - conda-forge
+- pkgs/r
 dependencies:
 - _libgcc_mutex=0.1=conda_forge
 - _openmp_mutex=4.5=2_gnu
@@ -431,6 +432,7 @@ dependencies:
 - r-diagram=1.6.5=r43ha770c72_2
 - r-diffobj=0.3.5=r43h57805ef_2
 - r-digest=0.6.35=r43ha503ecb_0
+- r-dlm=1.1_6=r43h76d94ec_0
 - r-doparallel=1.0.17=r43hc72bb7e_2
 - r-dotcall64=1.1_1=r43h61816a4_0
 - r-downlit=0.4.3=r43hc72bb7e_0
@@ -526,6 +528,7 @@ dependencies:
 - r-jsonify=1.2.2=r43ha503ecb_1
 - r-jsonlite=1.8.8=r43h57805ef_0
 - r-jsonvalidate=1.3.2=r43hc72bb7e_2
+- r-kernlab=0.9_32=r43h08d816e_1
 - r-kernsmooth=2.23_24=r43hc2011d3_0
 - r-knitr=1.46=r43hc72bb7e_0
 - r-labeling=0.4.3=r43hc72bb7e_0
@@ -558,6 +561,7 @@ dependencies:
 - r-mime=0.12=r43h57805ef_2
 - r-miniui=0.1.1.1=r43hc72bb7e_1004
 - r-minqa=1.2.7=r43h4a74c7a_0
+- r-mixtools=2.0.0=r43h57805ef_2
 - r-modelmetrics=1.2.2.2=r43ha503ecb_3
 - r-modelr=0.1.11=r43hc72bb7e_1
 - r-munsell=0.5.1=r43hc72bb7e_0
@@ -572,6 +576,7 @@ dependencies:
 - r-numderiv=2016.8_1.1=r43hc72bb7e_5
 - r-openssl=2.2.0=r43hd7d0243_0
 - r-optparse=1.7.5=r43hc72bb7e_0
+- r-paralleldist=0.2.6=r43ha503ecb_2
 - r-parallelly=1.37.1=r43h57805ef_0
 - r-patchwork=1.2.0=r43hc72bb7e_0
 - r-pbapply=1.7_2=r43hc72bb7e_0
@@ -624,6 +629,7 @@ dependencies:
 - r-rcppeigen=0.3.4.0.0=r43h08d816e_0
 - r-rcpphnsw=0.6.0=r43ha503ecb_0
 - r-rcppml=0.3.7=r43ha503ecb_1
+- r-rcppparallel=5.1.6=r43ha503ecb_1
 - r-rcppprogress=0.4.2=r43hc72bb7e_3
 - r-rcpptoml=0.2.2=r43ha503ecb_1
 - r-rcurl=1.98_1.14=r43hf9611b0_0
@@ -664,6 +670,7 @@ dependencies:
 - r-scatterpie=0.2.2=r43hc72bb7e_0
 - r-scico=1.5.0=r43hc72bb7e_0
 - r-sctransform=0.4.1=r43h08d816e_0
+- r-segmented=2.1_0=r43hc72bb7e_0
 - r-selectr=0.4_2=r43hc72bb7e_3
 - r-sessioninfo=1.2.2=r43hc72bb7e_2
 - r-seurat=5.0.3=r43ha503ecb_0
