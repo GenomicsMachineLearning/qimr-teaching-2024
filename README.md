@@ -78,7 +78,8 @@ $ R
 
 # Module 002 - Spatial Statistics
 
-View the [notebook here](./002-spatial-statistics/notebooks/voyager.ipynb).
+* [Tissue Segmentation](./002-spatial-statistics/notebooks/tissue_segmentation.ipynb).
+* [Spatial Statistics](./002-spatial-statistics/notebooks/spatial-statistics.ipynb).
 
 From the workshop directory go to the notebooks directory and being an R prompt:
 ```
