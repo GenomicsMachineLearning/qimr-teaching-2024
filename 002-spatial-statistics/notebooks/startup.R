@@ -17,7 +17,6 @@ library(EBImage)
 library(patchwork)
 library(bluster)
 library(rjson)
-library(png)
 theme_set(theme_bw())
 
 # Layout
@@ -42,6 +41,23 @@ show_plot <- function(plot, width = 800, height = 400, res = 100) {
   img <- png::readPNG(temp_filename)
   grid::grid.raster(img)
 }
+
+## Override functions for notebook uste - ignore for command line
+# custom_theme <- function() {
+#   theme_bw() +
+#     theme(
+#       legend.text = element_text(size = 14),
+#       legend.title = element_text(size = 16, face = "bold"),
+#       axis.text = element_text(size = 12),
+#       axis.title = element_text(size = 14, face = "bold"),
+#       legend.position = "right",
+#       legend.box.just = "right"
+#     )
+# }
+# show_plot <- function(plot, width = 800, height = 400, res = 100) {
+#     return(plot)
+# }
+# options(repr.plot.width = 20, repr.plot.height = 16)
 
 # Setup plotting resolution.
 options(repr.plot.width = 20, repr.plot.height = 16)
