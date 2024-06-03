@@ -69,10 +69,11 @@ options(repr.plot.width = 20, repr.plot.height = 16)
 
 # Setup Data Directory
 data_dir <- R.utils::getAbsolutePath('../../data')
+#data_dir <- R.utils::getAbsolutePath('/Users/andrew/PycharmProjects/using-wot/data')
 mouse_dir <- glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/outs")
 skin_A2_dir <- glue::glue("{data_dir}/Visium_Skin_A2/outs")
-#raw_sfe <- readRDS(glue::glue("/Users/andrew/PycharmProjects/using-wot/data/olfactory/Visium_Mouse_Olfactory_Bulb.rds"))
 raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb.rds"))
+# raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/Visium_Mouse_Olfactory_Bulb.rds"))
 transposed_raw_sfe <- raw_sfe
 
 # Set Random Number Seed.
@@ -86,7 +87,7 @@ colData(transposed_raw_sfe)$nCounts <- colSums(counts(transposed_raw_sfe))
 is_mt <- str_detect(rowData(transposed_raw_sfe)$symbol, "^MT-")
 qc_sfe <- scuttle::addPerCellQCMetrics(transposed_raw_sfe, subsets = list(mito = is_mt))
 
-# Normally MITO % is set to 20 - see what effect this has compared to 30.
+# Normally MITO % is set to 20.
 processed_sfe <- transposed_raw_sfe[, qc_sfe$subsets_mito_percent < 20]
 
 # Remove genes with zero counts
