@@ -69,23 +69,24 @@ $ micromamba activate /scratch/qimr-spatial-teaching-2024/conda-envs/python-r
 
 # Module 001 - Clustering and Cell Types
 
-View the [notebook here](./001-clustering-cell-typing/notebooks/1.2_Workshop_Cell_Typing_Example.ipynb).
-
 From the workshop directory go to the notebooks directory and being an R prompt:
 ```
 $ R
 ```
 
-# Module 002 - Spatial Statistics
+View the [notebook here](./001-clustering-cell-typing/notebooks/1.2_Workshop_Cell_Typing_Example.ipynb).
 
-* [Tissue Segmentation](./002-spatial-statistics/notebooks/tissue_segmentation.ipynb).
-* [Spatial Statistics](./002-spatial-statistics/notebooks/spatial-statistics.ipynb).
+# Module 002 - Spatial Statistics
 
 From the workshop directory go to the notebooks directory and being an R prompt:
 ```
 $ cd 002-spatial-statistics/notebooks
 $ R
 ```
+
+You can view the notebooks:
+* [Tissue Segmentation](./002-spatial-statistics/notebooks/tissue_segmentation.ipynb).
+* [Spatial Statistics](./002-spatial-statistics/notebooks/spatial-statistics.ipynb).
 
 You should be able to open the "voyager.ipyn" file in your IDE or web browser and follow the instructions.
 
