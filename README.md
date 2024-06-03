@@ -66,10 +66,6 @@ $ source ~/.bashrc
 $ micromamba activate /scratch/qimr-teaching-2024/conda-envs/python-r
 ```
 
-# Data
-
-* On scratch on HPC075 (all data is here on the training day)
-* Also available via link to public data on AWS - tar.gz for Visium and Xenium (for you to work at another time).
 
 # Module 001 - Clustering and Cell Types
 
