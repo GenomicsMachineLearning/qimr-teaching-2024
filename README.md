@@ -63,7 +63,7 @@ There is one Conda environments that will be used for all training materials:
 ```
 $ /scratch/qimr-teaching-2024/micromamba/micromamba shell init
 $ source ~/.bashrc
-$ micromamba activate /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-2024
+$ micromamba activate /scratch/qimr-teaching-2024/conda-envs/python-r
 ```
 
 # Data
@@ -224,27 +224,18 @@ $ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irke
 ### Installing Unmanaged Dependencies from Source
 This install dependencies that aren't managed by packages and need to be installed directly from source.
 
-R Dependencies:
+To install R dependencies run:
 ```
-$ R
-> install.packages("remotes", dependencies = FALSE)
-> remotes::install_github("drighelli/SpatialExperiment", dependencies=FALSE)
-> remotes::install_github("pachterlab/SpatialFeatureExperiment", ref="devel", dependencies=FALSE)
-> remotes::install_github("pachterlab/Voyager", ref="devel", dependencies=FALSE)
-> remotes::install_version('wrMisc', dependencies = FALSE)
-> remotes::install_github('YingMa0107/CARD', dependencies = FALSE)
-> remotes::install_github('renozao/NMF', ref="0.30.4.900", dependencies = FALSE)
-> remotes::install_github('jinworks/CellChat', dependencies = FALSE)
-> remotes::install_github('navinlabcode/copykat', dependencies = FALSE)
+$ Rscript dependencies.R
 ```
 
-Python Dependencies:
+To install Python dependencies run either:
 ```
 $ python -m pip install poetry
 $ poetry install
 ```
 
-OR:
+or:
 ```
 pip install "spatialdata[extra]>=0.1.2" "torch>=2.2.2" "torchvision>=0.17.2" "lightning>=2.2.2" "pyro-ppl>=1.9.0" "squidpy>=1.4.1" "monai>=1.3.0" "plotly>=5.22.0" "sopa[baysor,cellpose,snakemake,tangram]>=1.0.14" "jupyterlab>=4.2.1" "ipywidgets>=8.1.2" "monkeybread>=1.0.3" "harmonypy>=0.0.9" "matplotlib<3.9.0" "netgraph>=4.13.2" "python-louvain>=0.16"
 pip install multimodal_cci
