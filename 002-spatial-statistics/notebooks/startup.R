@@ -68,12 +68,12 @@ options(repr.plot.width = 20, repr.plot.height = 16)
 #transposed_raw_sfe <- SpatialFeatureExperiment::transpose(raw_sfe)
 
 # Setup Data Directory
-data_dir <- R.utils::getAbsolutePath('../../data')
-#data_dir <- R.utils::getAbsolutePath('/Users/andrew/PycharmProjects/using-wot/data')
+#data_dir <- R.utils::getAbsolutePath('../../data')
+data_dir <- R.utils::getAbsolutePath('/Users/andrew/PycharmProjects/using-wot/data')
 mouse_dir <- glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/outs")
 skin_A2_dir <- glue::glue("{data_dir}/Visium_Skin_A2/outs")
-raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb.rds"))
-# raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/Visium_Mouse_Olfactory_Bulb.rds"))
+#raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb.rds"))
+raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/Visium_Mouse_Olfactory_Bulb.rds"))
 transposed_raw_sfe <- raw_sfe
 
 # Set Random Number Seed.
