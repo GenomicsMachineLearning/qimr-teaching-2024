@@ -17,7 +17,6 @@ library(EBImage)
 library(patchwork)
 library(bluster)
 library(rjson)
-library(png)
 theme_set(theme_bw())
 
 # Layout
@@ -43,6 +42,23 @@ show_plot <- function(plot, width = 800, height = 400, res = 100) {
   grid::grid.raster(img)
 }
 
+## Override functions for notebook uste - ignore for command line
+# custom_theme <- function() {
+#   theme_bw() +
+#     theme(
+#       legend.text = element_text(size = 14),
+#       legend.title = element_text(size = 16, face = "bold"),
+#       axis.text = element_text(size = 12),
+#       axis.title = element_text(size = 14, face = "bold"),
+#       legend.position = "right",
+#       legend.box.just = "right"
+#     )
+# }
+# show_plot <- function(plot, width = 800, height = 400, res = 100) {
+#     return(plot)
+# }
+# options(repr.plot.width = 20, repr.plot.height = 16)
+
 # Setup plotting resolution.
 options(repr.plot.width = 20, repr.plot.height = 16)
 
@@ -55,6 +71,7 @@ options(repr.plot.width = 20, repr.plot.height = 16)
 data_dir <- R.utils::getAbsolutePath('../../data')
 mouse_dir <- glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb/outs")
 skin_A2_dir <- glue::glue("{data_dir}/Visium_Skin_A2/outs")
+#raw_sfe <- readRDS(glue::glue("/Users/andrew/PycharmProjects/using-wot/data/olfactory/Visium_Mouse_Olfactory_Bulb.rds"))
 raw_sfe <- readRDS(glue::glue("{data_dir}/Visium_Mouse_Olfactory_Bulb.rds"))
 transposed_raw_sfe <- raw_sfe
 
