@@ -69,7 +69,7 @@ $ micromamba activate /scratch/qimr-spatial-teaching-2024/conda-envs/python-r
 
 # Module 001 - Clustering and Cell Types
 
-From the workshop directory go to the notebooks directory and being an R prompt:
+From the workshop directory start an R prompt:
 ```
 $ R
 ```
