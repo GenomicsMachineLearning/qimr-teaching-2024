@@ -61,9 +61,9 @@ There is one Conda environments that will be used for all training materials:
 * qimr-teaching-2024
 
 ```
-$ /scratch/qimr-teaching-2024/micromamba/micromamba shell init
+$ /scratch/qimr-spatial-teaching-2024/micromamba/micromamba shell init
 $ source ~/.bashrc
-$ micromamba activate /scratch/qimr-teaching-2024/conda-envs/python-r
+$ micromamba activate /scratch/qimr-spatial-teaching-2024/conda-envs/python-r
 ```
 
 
@@ -98,14 +98,14 @@ You should be able to open the "voyager.ipyn" file in your IDE or web browser an
 # Module 005 - Spatial Proteomics 
 
 ```bash
-cd /scratch/qimr-teaching-2024/005-spatial-proteomics
+cd /scratch/qimr-spatial-teaching-2024/005-spatial-proteomics
 ipython
 ```
 
 # Module 006 - Deep Learning 
 
 ```bash
-cd /scratch/qimr-teaching-2024/006-deep-learning
+cd /scratch/qimr-spatial-teaching-2024/006-deep-learning
 ipython
 ```
 
@@ -243,7 +243,7 @@ pip install "git+https://github.com/xiao233333/stLearn.git@update-dependency"
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
 
 ```
-$ conda create --prefix /scratch/qimr-teaching-2024/conda-envs/qimr-teaching-2024 --clone [some-directory]/teaching2024-winter-qimr/conda-envs/xiao_pyr2
+$ conda create --prefix [some-directory]/qimr-spatial-teaching-2024/conda-envs/qimr-teaching-2024 --clone [some-directory]qimr-spatial-teaching-2024/conda-envs/source-conda-dir
 ```
 
 ### Export Environment File
