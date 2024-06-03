@@ -1,4 +1,4 @@
-name:
+name: qimr-teaching-2024
 channels:
 - bioconda
 - conda-forge
