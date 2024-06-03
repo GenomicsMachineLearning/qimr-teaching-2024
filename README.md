@@ -41,12 +41,12 @@ The steps you will need to perform:
 
 In a terminal, use SSH locally:
 ```
-$ ssh -Y [username]@hpcpbs01
+$ ssh -YC [username]@hpcpbs01
 ```
 
 SSH into from VPC:
 ```
-$ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
+$ ssh -YC [username]@hpcpbs01.adqimr.ad.lan
 ```
 
 ## Start a new runner node
