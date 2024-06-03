@@ -88,12 +88,6 @@ From the workshop directory go to the notebooks directory and being an R prompt:
 ```
 $ cd 002-spatial-statistics/notebooks
 $ R
-> source('./startup.R')
-```
-
-Test an image is displayed when you execute the following:
-```
-> Voyager::plotImage(raw_sfe)
 ```
 
 You should be able to open the "voyager.ipyn" file in your IDE or web browser and follow the instructions.
