@@ -41,12 +41,12 @@ The steps you will need to perform:
 
 In a terminal, use SSH locally:
 ```
-$ ssh -Y [username]@hpcpbs01
+$ ssh -XY [username]@hpcpbs01
 ```
 
 SSH into from VPC:
 ```
-$ ssh -Y [username]@hpcpbs01.adqimr.ad.lan
+$ ssh -XY [username]@hpcpbs01.adqimr.ad.lan
 ```
 
 ## Start a new runner node
@@ -88,32 +88,29 @@ From the workshop directory go to the notebooks directory and being an R prompt:
 ```
 $ cd 002-spatial-statistics/notebooks
 $ R
-> source('./startup.R')
-```
-
-Test an image is displayed when you execute the following:
-```
-> Voyager::plotImage(raw_sfe)
 ```
 
 You should be able to open the "voyager.ipyn" file in your IDE or web browser and follow the instructions.
 
-# Module 003 - Spatial Single Cell Visualization 
+# Module 003 - Downstream Analysis 
 
+
+# Module 004 - Spatial Single Cell 
+
+
+# Module 005 - Spatial Proteomics 
+
+```bash
+cd /scratch/qimr-teaching-2024/005-spatial-proteomics
+ipython
 ```
-$ cd 003-spatial-single-cell
-$ ipython
+
+# Module 006 - Deep Learning 
+
+```bash
+cd /scratch/qimr-teaching-2024/006-deep-learning
+ipython
 ```
-
-# Module 004 - Multimodalities 
-
-# Module 005 - Community Analysis 
-
-# Module 006 - Spatial Proteomics
-
-# Module 007 - Cell-Cell Interaction
-   
-# Module 008 - Deep Learning
 
 # Additional Information (Not Required for Course Participants)
 
