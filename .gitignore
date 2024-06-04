@@ -1,0 +1,7 @@
+data/
+conda-envs/
+micromamba/
+.ipynb_checkpoints
+**/__pycache__/**
+DATA/**
+**/.DS_Store
