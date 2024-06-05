@@ -70,7 +70,7 @@ $ micromamba activate /scratch/qimr-spatial-teaching-2024/conda-envs/python-r
 # Module 001 - Clustering and Cell Types
 
 From the workshop directory start an R prompt:
-```
+```bash
 $ R
 ```
 
@@ -79,7 +79,7 @@ View the [notebook here](001-clustering-cell-typing/1.2_Workshop_Cell_Typing_Exa
 # Module 002 - Spatial Statistics
 
 From the workshop directory go to the notebooks directory and being an R prompt:
-```
+```bash
 $ cd /scratch/qimr-spatial-teaching-2024/002-spatial-statistics
 $ R
 ```
