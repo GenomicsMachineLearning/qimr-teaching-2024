@@ -91,7 +91,7 @@ You can view the notebooks here:
 # Module 003 - Downstream Analysis 
 
 You can view the notebooks here:
-* [CNV Profiling](./003-downstream-analysis/3.1_CNV_profiling_R.html).
+* [CNV Profiling](./003-downstream-analysis/3.1_QIMR_CNV_profiling.ipynb).
 * [Cell community identification](./003-downstream-analysis/3.2_hoodscanR.ipynb).
 * [Neighborhood Coordination and Cell Community Identification](./003-downstream-analysis/3.3_neighborhood.ipynb).
 * [Cell-Cell Interactions](./003-downstream-analysis/3.4_Cell_Cell_Interaction.html).
