@@ -3,23 +3,23 @@
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
-* [Module 001 - Introducing Spatial Analysis](#module-001---clustering-and-cell-types)
+* [Module 001 - Introducing Spatial Analysis](#Module-001---Clustering-and-Cell-Types)
   * Preprocessing - Andrew C
   * Clustering and Cell Typing - Andrew C
   * Deconvolution and Label Transfer - Andrew C
-* [Module 002 - Spatial Statistics](#module-002---spatial-statistics)
+* [Module 002 - Spatial Statistics](#Module-002---Spatial-Statistics)
   * Tissue Segmentation - Andrew N
   * Spatial Statistics with Voyager - Andrew N
-* [Module 003 - Downstream Analysis](#module-003---downstream-analysis)
+* [Module 003 - Downstream Analysis](#Module-003---Downstream-Analysis)
   * Inferring Malignant Cells using CNV Profiles - Prakrithi
   * Community Analysis - Feng
   * Cell-Cell Interaction Analysis - Onkar & Levi
-* [Module 004 - Spatial Single Cell Visualisation](#module-004---spatial-single-cell)
+* [Module 004 - Spatial Single Cell Visualisation](#Module-004---Spatial-Single-Cell)
   * Single Cell Spatial Data Visualisation - Levi
   * stLearn/Xenium Explorer - Xiao
-* [Module 005 - Spatial Proteomics](#module-005---spatial-proteomics)
+* [Module 005 - Spatial Proteomics](#Module-005---Spatial-Proteomics)
   * Xiao & Quan
-* [Module 006 - Deep Learning](#module-006---deep-learning)
+* [Module 006 - Deep Learning](#Module-006---Deep-Learning)
   * Xiao & Quan
 
 # Accessing the Training Materials on the QIMR HPC
