@@ -152,7 +152,7 @@ $ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-
 
 In a custom directory:
 ```
-$ conda create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-macos.yml
+$ conda create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-macos.yml -y
 ```
 
 Currently, all dependencies are only available for x86 (Intel). If you are running an M-series CPU 
@@ -242,17 +242,9 @@ To install R dependencies run:
 $ Rscript dependencies.R
 ```
 
-To install Python dependencies run either:
+To install Python dependencies run:
 ```
-$ python -m pip install poetry
-$ poetry install
-```
-
-or:
-```
-pip install "spatialdata[extra]>=0.1.2" "torch>=2.2.2" "torchvision>=0.17.2" "lightning>=2.2.2" "pyro-ppl>=1.9.0" "squidpy>=1.4.1" "monai>=1.3.0" "plotly>=5.22.0" "sopa[baysor,cellpose,snakemake,tangram]>=1.0.14" "jupyterlab>=4.2.1" "ipywidgets>=8.1.2" "monkeybread>=1.0.3" "harmonypy>=0.0.9" "matplotlib<3.9.0" "netgraph>=4.13.2" "python-louvain>=0.16"
-pip install multimodal_cci
-pip install "git+https://github.com/xiao233333/stLearn.git@update-dependency" 
+$ python -m pip install -r requirements.txt
 ```
 
 ### Cloning an Environment
