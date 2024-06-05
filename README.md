@@ -74,7 +74,7 @@ From the workshop directory start an R prompt:
 $ R
 ```
 
-View the [notebook here](./001-clustering-cell-typing/notebooks/1.2_Workshop_Cell_Typing_Example.ipynb).
+View the [notebook here](001-clustering-cell-typing/1.2_Workshop_Cell_Typing_Example.ipynb).
 
 # Module 002 - Spatial Statistics
 
