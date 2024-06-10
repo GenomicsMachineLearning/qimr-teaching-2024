@@ -52,6 +52,7 @@ An overview of the materials to be covered in this course:
   * [Xenium_with_labels.zarr.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Xenium_with_labels.zarr.tar.gz)
   * [cosmx.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/cosmx.h5ad)
 * Module 5
+  * [CODEX.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CODEX.tar.gz)
 * Module 6
 
 # Accessing the Training Materials on the QIMR HPC
