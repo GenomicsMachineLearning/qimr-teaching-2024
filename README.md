@@ -25,26 +25,26 @@ An overview of the materials to be covered in this course:
 # Data
 
 * Module 1
-  * 1.1
+  * 1.1 - Cell Typing Tutorial
     * [visium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.RDS)
     * [xenium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium.RDS)
-  * 1.2
+  * 1.2 - Cell Typing Example
     * [scRNA_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scRNA_processed.RDS)
     * [visium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_processed.RDS)
     * [xenium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium_processed.RDS) 
 * Module 2
-  * 2.1
+  * 2.1 - Tissue Segmentation
     * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.tar.gz)
     * [Visium_Skin_A2.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2.tar.gz) (Soon) 
-  * 2.2
+  * 2.2 - Spatial Statistics
     * [Visium_Mouse_Olfactory_Bulb.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.rds)
 * Module 3
-  * 3.1
-  * 3.2
+  * 3.1 - CNV Profiling
+  * 3.2 - Community Analysis
     * [CosMx_Skin_Melanoma.RData](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CosMx_Skin_Melanoma.RData)
-  * 3.3
+  * 3.3 - Neighborhood Coordination
     * [spatial.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/spatial.csv)
-  * 3.4
+  * 3.4 - Cell-Cell Interaction
     * [Visium_Skin_A2_cellchat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2_cellchat.rds)
     * [visium_decon.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_decon.csv)
     * [scalefactors_json.json](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scalefactors_json.json)
