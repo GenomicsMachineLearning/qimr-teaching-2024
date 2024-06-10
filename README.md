@@ -26,33 +26,33 @@ An overview of the materials to be covered in this course:
 
 * Module 1
   * 1.1 - Cell Typing Tutorial
-    * [visium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.RDS)
-    * [xenium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium.RDS)
+    * [visium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.RDS) (7.4 MB)
+    * [xenium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium.RDS) (33 MB)
   * 1.2 - Cell Typing Example
-    * [scRNA_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scRNA_processed.RDS)
-    * [visium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_processed.RDS)
-    * [xenium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium_processed.RDS) 
+    * [scRNA_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scRNA_processed.RDS) (364 MB)
+    * [visium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_processed.RDS) (36 MB)
+    * [xenium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium_processed.RDS) (98 MB)
 * Module 2
   * 2.1 - Tissue Segmentation
-    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.tar.gz)
+    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
     * [Visium_Skin_A2.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2.tar.gz) (Soon) 
   * 2.2 - Spatial Statistics
-    * [Visium_Mouse_Olfactory_Bulb.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.rds)
+    * [Visium_Mouse_Olfactory_Bulb.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 3
   * 3.1 - CNV Profiling
   * 3.2 - Community Analysis
-    * [CosMx_Skin_Melanoma.RData](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CosMx_Skin_Melanoma.RData)
+    * [CosMx_Skin_Melanoma.RData](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CosMx_Skin_Melanoma.RData) (7.2 MB)
   * 3.3 - Neighborhood Coordination
-    * [spatial.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/spatial.csv)
+    * [spatial.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/spatial.csv) (2.6 MB)
   * 3.4 - Cell-Cell Interaction
-    * [Visium_Skin_A2_cellchat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2_cellchat.rds)
-    * [visium_decon.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_decon.csv)
-    * [scalefactors_json.json](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scalefactors_json.json)
+    * [Visium_Skin_A2_cellchat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2_cellchat.rds) (14 MB)
+    * [visium_decon.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_decon.csv) (375 KB)
+    * [scalefactors_json.json](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scalefactors_json.json) (204 Bytes)
 * Module 4
-  * [Xenium_with_labels.zarr.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Xenium_with_labels.zarr.tar.gz)
-  * [cosmx.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/cosmx.h5ad)
+  * [Xenium_with_labels.zarr.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
+  * [cosmx.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/cosmx.h5ad) (1.3 GB)
 * Module 5
-  * [CODEX.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CODEX.tar.gz)
+  * [CODEX.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CODEX.tar.gz) (447 MB)
 * Module 6
 
 # Accessing the Training Materials on the QIMR HPC
