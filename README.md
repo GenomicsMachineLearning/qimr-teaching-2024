@@ -23,14 +23,34 @@ An overview of the materials to be covered in this course:
   * Xiao & Quan
 
 # Data
-* [CellChat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CellChat.rds)
-* [visium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_processed.RDS)
-* [Visium_Skin_A2_cellchat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2_cellchat.rds)
-* [Visium_Skin_A2.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2.tar.gz)
-* [visium_stlearn.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_stlearn.h5ad)
-* [visium.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.h5ad)
-* [visium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.RDS)
-* [xenium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium.RDS)
+
+* Module 1
+  * 1.1
+    * [visium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.RDS)
+    * [xenium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium.RDS)
+  * 1.2
+    * [scRNA_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scRNA_processed.RDS)
+    * [visium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_processed.RDS)
+    * [xenium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium_processed.RDS) 
+* Module 2
+  * 2.1
+    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.tar.gz)
+    * [Visium_Skin_A2.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2.tar.gz) (Soon) 
+  * 2.2
+    * [Visium_Mouse_Olfactory_Bulb.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Mouse_Olfactory_Bulb.rds)
+* Module 3
+  * 3.1
+  * 3.2
+    * [CosMx_Skin_Melanoma.RData](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CosMx_Skin_Melanoma.RData)
+  * 3.3
+    * [spatial.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/spatial.csv)
+  * 3.4
+    * [Visium_Skin_A2_cellchat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2_cellchat.rds)
+    * [visium_decon.csv](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_decon.csv)
+    * [scalefactors_json.json](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/scalefactors_json.json)
+* Module 4
+* Module 5
+* Module 6
 
 # Accessing the Training Materials on the QIMR HPC
 
@@ -95,8 +115,8 @@ $ R
 ```
 
 You can view the notebooks here:
-* [Tissue Segmentation](./002-spatial-statistics/01-tissue_segmentation.ipynb).
-* [Spatial Statistics](./002-spatial-statistics/02-spatial-statistics.ipynb).
+* [Tissue Segmentation](./002-spatial-statistics/2.1-tissue_segmentation.ipynb).
+* [Spatial Statistics](./002-spatial-statistics/2.2-spatial-statistics.ipynb).
 
 # Module 003 - Downstream Analysis 
 
