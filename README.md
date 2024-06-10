@@ -22,6 +22,16 @@ An overview of the materials to be covered in this course:
 * [Module 006 - Deep Learning](#Module-006---Deep-Learning)
   * Xiao & Quan
 
+# Data
+* [CellChat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/CellChat.rds)
+* [visium_processed.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_processed.RDS)
+* [Visium_Skin_A2_cellchat.rds](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2_cellchat.rds)
+* [Visium_Skin_A2.tar.gz](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/Visium_Skin_A2.tar.gz)
+* [visium_stlearn.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium_stlearn.h5ad)
+* [visium.h5ad](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.h5ad)
+* [visium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/visium.RDS)
+* [xenium.RDS](https://workshop-2024.s3.ap-southeast-2.amazonaws.com/xenium.RDS)
+
 # Accessing the Training Materials on the QIMR HPC
 
 The steps you will need to perform:
