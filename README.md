@@ -26,33 +26,33 @@ An overview of the materials to be covered in this course:
 
 * Module 1
   * 1.1 - Cell Typing Tutorial
-    * [visium.RDS](https://d17i46g3vkaesp.cloudfront.net/visium.RDS) (7.4 MB)
-    * [xenium.RDS](https://d17i46g3vkaesp.cloudfront.net/xenium.RDS) (33 MB)
+    * [visium.RDS](https://d3rjhs6aavtx0d.cloudfront.net/visium.RDS) (7.4 MB)
+    * [xenium.RDS](https://d3rjhs6aavtx0d.cloudfront.net/xenium.RDS) (33 MB)
   * 1.2 - Cell Typing Example
-    * [scRNA_processed.RDS](https://d17i46g3vkaesp.cloudfront.net/scRNA_processed.RDS) (364 MB)
-    * [visium_processed.RDS](https://d17i46g3vkaesp.cloudfront.net/visium_processed.RDS) (36 MB)
-    * [xenium_processed.RDS](https://d17i46g3vkaesp.cloudfront.net/xenium_processed.RDS) (98 MB)
+    * [scRNA_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/scRNA_processed.RDS) (364 MB)
+    * [visium_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/visium_processed.RDS) (36 MB)
+    * [xenium_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/xenium_processed.RDS) (98 MB)
 * Module 2
   * 2.1 - Tissue Segmentation
-    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://d17i46g3vkaesp.cloudfront.net/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
-    * [Visium_Skin_A2.tar.gz](https://d17i46g3vkaesp.cloudfront.net/Visium_Skin_A2.tar.gz) (Soon) 
+    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
+    * [Visium_Skin_A2.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Skin_A2.tar.gz) (Soon) 
   * 2.2 - Spatial Statistics
-    * [Visium_Mouse_Olfactory_Bulb.rds](https://d17i46g3vkaesp.cloudfront.net/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
+    * [Visium_Mouse_Olfactory_Bulb.rds](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 3
   * 3.1 - CNV Profiling
   * 3.2 - Community Analysis
-    * [CosMx_Skin_Melanoma.RData](https://d17i46g3vkaesp.cloudfront.net/CosMx_Skin_Melanoma.RData) (7.2 MB)
+    * [CosMx_Skin_Melanoma.RData](https://d3rjhs6aavtx0d.cloudfront.net/CosMx_Skin_Melanoma.RData) (7.2 MB)
   * 3.3 - Neighborhood Coordination
-    * [spatial.csv](https://d17i46g3vkaesp.cloudfront.net/spatial.csv) (2.6 MB)
+    * [spatial.csv](https://d3rjhs6aavtx0d.cloudfront.net/spatial.csv) (2.6 MB)
   * 3.4 - Cell-Cell Interaction
-    * [Visium_Skin_A2_cellchat.rds](https://d17i46g3vkaesp.cloudfront.net/Visium_Skin_A2_cellchat.rds) (14 MB)
-    * [visium_decon.csv](https://d17i46g3vkaesp.cloudfront.net/visium_decon.csv) (375 KB)
-    * [scalefactors_json.json](https://d17i46g3vkaesp.cloudfront.net/scalefactors_json.json) (204 Bytes)
+    * [Visium_Skin_A2_cellchat.rds](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Skin_A2_cellchat.rds) (14 MB)
+    * [visium_decon.csv](https://d3rjhs6aavtx0d.cloudfront.net/visium_decon.csv) (375 KB)
+    * [scalefactors_json.json](https://d3rjhs6aavtx0d.cloudfront.net/scalefactors_json.json) (204 Bytes)
 * Module 4
-  * [Xenium_with_labels.zarr.tar.gz](https://d17i46g3vkaesp.cloudfront.net/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
-  * [cosmx.h5ad](https://d17i46g3vkaesp.cloudfront.net/cosmx.h5ad) (1.3 GB)
+  * [Xenium_with_labels.zarr.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
+  * [cosmx.h5ad](https://d3rjhs6aavtx0d.cloudfront.net/cosmx.h5ad) (1.3 GB)
 * Module 5
-  * [CODEX.tar.gz](https://d17i46g3vkaesp.cloudfront.net/CODEX.tar.gz) (447 MB)
+  * [CODEX.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/CODEX.tar.gz) (447 MB)
 * Module 6
 
 # Accessing the Training Materials on the QIMR HPC
