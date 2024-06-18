@@ -32,19 +32,6 @@ custom_theme <- function() {
     )
 }
 
-# Display plot over X-Windows
-show_plot <- function(plot, width = 800, height = 400, res = 100) {
-  temp_filename <- tempfile(fileext = ".png")
-  while (dev.cur() > 1) {
-    dev.off()
-  }
-  grDevices::png(filename = temp_filename, width = width, height = height, res = res)
-  print(plot)
-  dev.off()
-  img <- png::readPNG(temp_filename)
-  grid::grid.raster(img)
-}
-
 ## Override functions for notebook uste - ignore for command line
 # custom_theme <- function() {
 #   theme_bw() +
@@ -57,10 +44,23 @@ show_plot <- function(plot, width = 800, height = 400, res = 100) {
 #       legend.box.just = "right"
 #     )
 # }
+
+# Display plot over X-Windows
 # show_plot <- function(plot, width = 800, height = 400, res = 100) {
-#     return(plot)
+#   temp_filename <- tempfile(fileext = ".png")
+#   while (dev.cur() > 1) {
+#     dev.off()
+#   }
+#   grDevices::png(filename = temp_filename, width = width, height = height, res = res)
+#   print(plot)
+#   dev.off()
+#   img <- png::readPNG(temp_filename)
+#   grid::grid.raster(img)
 # }
-# options(repr.plot.width = 20, repr.plot.height = 16)
+# Display plot normally
+show_plot <- function(plot, width = 800, height = 400, res = 100) {
+    return(plot)
+}
 
 # Setup plotting resolution.
 options(repr.plot.width = 20, repr.plot.height = 16)
