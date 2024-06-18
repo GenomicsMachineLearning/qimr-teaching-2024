@@ -1,6 +1,6 @@
 ![Genomics and Machine Learning Lab, QIMR and UQ Logo](images/logo.png)
 
-# QIMR Spatial and Machine Learning Teaching Material 2024
+# GML Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
 * [Module 001 - Spatial Single Cell Visualisation](#Module-001---Spatial-Single-Cell)
