@@ -3,20 +3,20 @@
 # QIMR Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
-* [Module 001 - Introducing Spatial Analysis](#Module-001---Clustering-and-Cell-Types)
+* [Module 001 - Spatial Single Cell Visualisation](#Module-001---Spatial-Single-Cell)
+  * Single Cell Spatial Data Visualisation - Levi
+  * stLearn/Xenium Explorer - Xiao
+* [Module 002 - Introducing Spatial Analysis](#Module-002---Clustering-and-Cell-Types)
   * Preprocessing - Andrew C
   * Clustering and Cell Typing - Andrew C
   * Deconvolution and Label Transfer - Andrew C
-* [Module 002 - Spatial Statistics](#Module-002---Spatial-Statistics)
-  * Tissue Segmentation - Andrew N
-  * Spatial Statistics with Voyager - Andrew N
 * [Module 003 - Downstream Analysis](#Module-003---Downstream-Analysis)
   * Inferring Malignant Cells using CNV Profiles - Prakrithi
   * Community Analysis - Feng
   * Cell-Cell Interaction Analysis - Onkar & Levi
-* [Module 004 - Spatial Single Cell Visualisation](#Module-004---Spatial-Single-Cell)
-  * Single Cell Spatial Data Visualisation - Levi
-  * stLearn/Xenium Explorer - Xiao
+* [Module 004 - Spatial Statistics](#Module-004---Spatial-Statistics)
+  * Tissue Segmentation - Andrew N
+  * Spatial Statistics with Voyager - Andrew N
 * [Module 005 - Spatial Proteomics](#Module-005---Spatial-Proteomics)
   * Xiao & Quan
 * [Module 006 - Deep Learning](#Module-006---Deep-Learning)
@@ -25,6 +25,9 @@ An overview of the materials to be covered in this course:
 # Data
 
 * Module 1
+  * [Xenium_with_labels.zarr.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
+  * [cosmx.h5ad](https://d3rjhs6aavtx0d.cloudfront.net/cosmx.h5ad) (1.3 GB)
+* Module 2
   * 1.1 - Cell Typing Tutorial
     * [visium.RDS](https://d3rjhs6aavtx0d.cloudfront.net/visium.RDS) (7.4 MB)
     * [xenium.RDS](https://d3rjhs6aavtx0d.cloudfront.net/xenium.RDS) (33 MB)
@@ -32,12 +35,6 @@ An overview of the materials to be covered in this course:
     * [scRNA_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/scRNA_processed.RDS) (364 MB)
     * [visium_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/visium_processed.RDS) (36 MB)
     * [xenium_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/xenium_processed.RDS) (98 MB)
-* Module 2
-  * 2.1 - Tissue Segmentation
-    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
-    * [Visium_Skin_A2.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Skin_A2.tar.gz) (Soon) 
-  * 2.2 - Spatial Statistics
-    * [Visium_Mouse_Olfactory_Bulb.rds](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 3
   * 3.1 - CNV Profiling
   * 3.2 - Community Analysis
@@ -49,8 +46,11 @@ An overview of the materials to be covered in this course:
     * [visium_decon.csv](https://d3rjhs6aavtx0d.cloudfront.net/visium_decon.csv) (375 KB)
     * [scalefactors_json.json](https://d3rjhs6aavtx0d.cloudfront.net/scalefactors_json.json) (204 Bytes)
 * Module 4
-  * [Xenium_with_labels.zarr.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
-  * [cosmx.h5ad](https://d3rjhs6aavtx0d.cloudfront.net/cosmx.h5ad) (1.3 GB)
+  * 2.1 - Tissue Segmentation
+    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
+    * [Visium_Skin_A2.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Skin_A2.tar.gz) (Coming Soon) 
+  * 2.2 - Spatial Statistics
+    * [Visium_Mouse_Olfactory_Bulb.rds](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 5
   * [CODEX.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/CODEX.tar.gz) (447 MB)
 * Module 6
@@ -99,63 +99,33 @@ $ source ~/.bashrc
 $ micromamba activate /scratch/qimr-spatial-teaching-2024/conda-envs/python-r
 ```
 
+# Module 001 - Spatial Single Cell 
 
-# Module 001 - Clustering and Cell Types
+* [Spatial Data Visualisation](./001-spatial-single-cell/single_cell_visualisations.ipynb).
 
-From the workshop directory start an R prompt:
-```bash
-$ R
-```
+# Module 002 - Clustering and Cell Types
 
-View the [notebook here](001-clustering-cell-typing/1.2_Workshop_Cell_Typing_Example.ipynb).
-
-# Module 002 - Spatial Statistics
-
-From the workshop directory go to the notebooks directory and being an R prompt:
-```bash
-$ cd /scratch/qimr-spatial-teaching-2024/002-spatial-statistics
-$ R
-```
-
-You can view the notebooks here:
-* [Tissue Segmentation](./002-spatial-statistics/2.1-tissue_segmentation.ipynb).
-* [Spatial Statistics](./002-spatial-statistics/2.2-spatial-statistics.ipynb).
+* [Clustering and Cell Typing](002-clustering-cell-typing/2.2_Workshop_Cell_Typing_Example.ipynb).
 
 # Module 003 - Downstream Analysis 
 
-You can view the notebooks here:
 * [CNV Profiling](./003-downstream-analysis/3.1_QIMR_CNV_profiling.ipynb).
 * [Cell community identification](./003-downstream-analysis/3.2_hoodscanR.ipynb).
 * [Neighborhood Coordination and Cell Community Identification](./003-downstream-analysis/3.3_neighborhood.ipynb).
 * [Cell-Cell Interactions](./003-downstream-analysis/3.4_Cell_Cell_Interaction.html).
 
-# Module 004 - Spatial Single Cell 
+# Module 004 - Spatial Statistics
 
-```bash
-cd /scratch/qimr-spatial-teaching-2024/004-spatial-single-cell
-ipython
-```
-You can view the notebook here:
-* [Spatial Data Visualisation](./004-spatial-single-cell/single_cell_visualisations.ipynb).
+* [Tissue Segmentation](004-spatial-statistics/4.1-tissue_segmentation.ipynb).
+* [Spatial Statistics](004-spatial-statistics/4.2-spatial-statistics.ipynb).
 
 # Module 005 - Spatial Proteomics 
 
-```bash
-cd /scratch/qimr-spatial-teaching-2024/005-spatial-proteomics
-ipython
-```
-You can view the notebooks here:
 * [Mapping CODEX in Visium Data](./005-spatial-proteomics/mapping_CODEX_Visium.ipynb).
 * [Spatial Proteomics Analysis for CODEX Data](./005-spatial-proteomics/CODEX_analysis.ipynb).
 
 # Module 006 - Deep Learning 
 
-```bash
-cd /scratch/qimr-spatial-teaching-2024/006-deep-learning
-ipython
-```
-
-You can view the notebook here:
 * [Deep Learning](./006-deep-learning/Deep_learning_tutorial.ipynb).
 
 # Additional Information (Not Required for Course Participants)
