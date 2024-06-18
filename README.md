@@ -28,10 +28,10 @@ An overview of the materials to be covered in this course:
   * [Xenium_with_labels.zarr.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
   * [cosmx.h5ad](https://d3rjhs6aavtx0d.cloudfront.net/cosmx.h5ad) (1.3 GB)
 * Module 2
-  * 1.1 - Cell Typing Tutorial
+  * 2.1 - Cell Typing Tutorial
     * [visium.RDS](https://d3rjhs6aavtx0d.cloudfront.net/visium.RDS) (7.4 MB)
     * [xenium.RDS](https://d3rjhs6aavtx0d.cloudfront.net/xenium.RDS) (33 MB)
-  * 1.2 - Cell Typing Example
+  * 2.2 - Cell Typing Example
     * [scRNA_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/scRNA_processed.RDS) (364 MB)
     * [visium_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/visium_processed.RDS) (36 MB)
     * [xenium_processed.RDS](https://d3rjhs6aavtx0d.cloudfront.net/xenium_processed.RDS) (98 MB)
@@ -46,10 +46,10 @@ An overview of the materials to be covered in this course:
     * [visium_decon.csv](https://d3rjhs6aavtx0d.cloudfront.net/visium_decon.csv) (375 KB)
     * [scalefactors_json.json](https://d3rjhs6aavtx0d.cloudfront.net/scalefactors_json.json) (204 Bytes)
 * Module 4
-  * 2.1 - Tissue Segmentation
+  * 4.1 - Tissue Segmentation
     * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
     * [Visium_Skin_A2.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Skin_A2.tar.gz) (Coming Soon) 
-  * 2.2 - Spatial Statistics
+  * 4.2 - Spatial Statistics
     * [Visium_Mouse_Olfactory_Bulb.rds](https://d3rjhs6aavtx0d.cloudfront.net/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 5
   * [CODEX.tar.gz](https://d3rjhs6aavtx0d.cloudfront.net/CODEX.tar.gz) (447 MB)
