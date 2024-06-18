@@ -25,34 +25,34 @@ An overview of the materials to be covered in this course:
 # Data
 
 * Module 1
-  * [Xenium_with_labels.zarr.tar.gz](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
-  * [cosmx.h5ad](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/cosmx.h5ad) (1.3 GB)
+  * [Xenium_with_labels.zarr.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
+  * [cosmx.h5ad](https://downloads.gmllab.com/qimr-teaching-2024/cosmx.h5ad) (1.3 GB)
 * Module 2
   * 2.1 - Cell Typing Tutorial
-    * [visium.RDS](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/visium.RDS) (7.4 MB)
-    * [xenium.RDS](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/xenium.RDS) (33 MB)
+    * [visium.RDS](https://downloads.gmllab.com/qimr-teaching-2024/visium.RDS) (7.4 MB)
+    * [xenium.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium.RDS) (33 MB)
   * 2.2 - Cell Typing Example
-    * [scRNA_processed.RDS](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/scRNA_processed.RDS) (364 MB)
-    * [visium_processed.RDS](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/visium_processed.RDS) (36 MB)
-    * [xenium_processed.RDS](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/xenium_processed.RDS) (98 MB)
+    * [scRNA_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/scRNA_processed.RDS) (364 MB)
+    * [visium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/visium_processed.RDS) (36 MB)
+    * [xenium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium_processed.RDS) (98 MB)
 * Module 3
   * 3.1 - CNV Profiling
   * 3.2 - Community Analysis
-    * [CosMx_Skin_Melanoma.RData](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/CosMx_Skin_Melanoma.RData) (7.2 MB)
+    * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/qimr-teaching-2024/CosMx_Skin_Melanoma.RData) (7.2 MB)
   * 3.3 - Neighborhood Coordination
-    * [spatial.csv](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/spatial.csv) (2.6 MB)
+    * [spatial.csv](https://downloads.gmllab.com/qimr-teaching-2024/spatial.csv) (2.6 MB)
   * 3.4 - Cell-Cell Interaction
-    * [Visium_Skin_A2_cellchat.rds](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/Visium_Skin_A2_cellchat.rds) (14 MB)
-    * [visium_decon.csv](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/visium_decon.csv) (375 KB)
-    * [scalefactors_json.json](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/scalefactors_json.json) (204 Bytes)
+    * [Visium_Skin_A2_cellchat.rds](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Skin_A2_cellchat.rds) (14 MB)
+    * [visium_decon.csv](https://downloads.gmllab.com/qimr-teaching-2024/visium_decon.csv) (375 KB)
+    * [scalefactors_json.json](https://downloads.gmllab.com/qimr-teaching-2024/scalefactors_json.json) (204 Bytes)
 * Module 4
   * 4.1 - Tissue Segmentation
-    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
-    * [Visium_Skin_A2.tar.gz](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/Visium_Skin_A2.tar.gz) (Coming Soon) 
+    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
+    * [Visium_Skin_A2.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Skin_A2.tar.gz) (Coming Soon) 
   * 4.2 - Spatial Statistics
-    * [Visium_Mouse_Olfactory_Bulb.rds](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
+    * [Visium_Mouse_Olfactory_Bulb.rds](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 5
-  * [CODEX.tar.gz](https://d1byvsc4r7evdx.cloudfront.net/qimr-teaching-2024/CODEX.tar.gz) (447 MB)
+  * [CODEX.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/CODEX.tar.gz) (447 MB)
 * Module 6
 
 # Accessing the Training Materials on the QIMR HPC
