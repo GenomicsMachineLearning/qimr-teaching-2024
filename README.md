@@ -55,14 +55,30 @@ An overview of the materials to be covered in this course:
   * [CODEX.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/CODEX.tar.gz) (447 MB)
 * Module 6
 
-# Setting Up and Running the Materials
+# Running the Learning Materials
 
 Copy and paste each of the following lines into your terminal:
 * ```/software/bin/micromamba shell init```
 * ```source ~/.bashrc```
 * ```micromamba activate /software/conda-envs/winter_school_2024```
 * ```git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024 /scratch/$USER/qimr-teaching-2024```
-* ```/scratch/$USER/qimr-teaching-2024/runme.sh``` 
+* ```/scratch/$USER/qimr-teaching-2024/runme.sh```
+
+The output will look something like:
+```bash
+Port 3502 is available
+
+Command to create ssh tunnel:
+ssh -N -L 3502:10.10.10.10:3502 foo@10.10.10.10
+Use a Browser on your local machine to go to:
+localhost:3502  (prefix w/ https:// if using password)
+
+[I 2024-06-20 05:57:41.633 ServerApp] Extension package jupyter_lsp took 0.1372s to import
+[I 2024-06-20 05:57:44.647 ServerApp]     http://127.0.0.1:3502/tree?token=b5ce80534330435212e76b910a64836cd2b3313663859be6
+```
+
+* Copy the line beginning with "ssh" into a separate terminal and hit [Enter].
+* In your browser copy the line beginning with "http://127.0.0.1".
 
 # Module 001 - Spatial Single Cell 
 
