@@ -55,49 +55,14 @@ An overview of the materials to be covered in this course:
   * [CODEX.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/CODEX.tar.gz) (447 MB)
 * Module 6
 
-# Accessing the Training Materials on the QIMR HPC
-
-The steps you will need to perform:
-* Log into the HPC,
-* Use a runtime environment, and
-* Run iPython or R.
-
-## Log into the HPC with Windows
-
-* Download and Install MobaXterm
-  * https://mobaxterm.mobatek.net/
-* Use MobaXterm to connect to hpcpbs01
-
-## Log into the HPC with MacOS
-
-* Download and install XQuartz https://www.xquartz.org/
-
-In a terminal, use SSH locally:
-```
-$ ssh -CY [username]@hpcpbs01
-```
-
-SSH into from VPC:
-```
-$ ssh -CY [username]@hpcpbs01.adqimr.ad.lan
-```
-
-## Start a new runner node
-
-```
-$  qsub -IX -q spatial -l ncpus=2,mem=24GB,walltime=8:00:00
-```
-
-## Using a Conda Environment
-
-There is one Conda environments that will be used for all training materials:
-* python-r
+# Setting Up and Running the Materials
 
 ```
 $ /software/bin/micromamba shell init
 $ source ~/.bashrc
 $ micromamba activate /software/conda-envs/winter_school_2024
-$ /software/winter_school_2024/runme.sh
+$ git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024 /scratch/${user}/qimr-teaching-2024
+$ /scratch/${user}/qimr-teaching-2024/runme.sh
 ```
 
 # Module 001 - Spatial Single Cell 
