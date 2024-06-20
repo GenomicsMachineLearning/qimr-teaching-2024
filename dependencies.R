@@ -2,6 +2,7 @@
 options(repos = c(CRAN = "https://mirror.aarnet.edu.au/pub/CRAN/"))
 
 install.packages("remotes", dependencies = FALSE)
+remotes::install_version('dlm', dependencies = FALSE)
 remotes::install_github("drighelli/SpatialExperiment", dependencies=FALSE)
 remotes::install_github("pachterlab/SpatialFeatureExperiment", ref="devel", dependencies=FALSE)
 remotes::install_github("pachterlab/Voyager", ref="devel", dependencies=FALSE)
