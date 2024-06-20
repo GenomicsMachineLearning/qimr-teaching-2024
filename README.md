@@ -74,7 +74,7 @@ Use a Browser on your local machine to go to:
 localhost:3502  (prefix w/ https:// if using password)
 
 [I 2024-06-20 05:57:41.633 ServerApp] Extension package jupyter_lsp took 0.1372s to import
-[I 2024-06-20 05:57:44.647 ServerApp]     http://127.0.0.1:3502/tree?token=b5ce80534330435212e76b910a64836cd2b3313663859be6
+[I 2024-06-20 05:57:44.647 ServerApp]     http://127.0.0.1:3502/tree?token=abc123
 ```
 
 * Copy the line beginning with "ssh" into a separate terminal and hit [Enter].
