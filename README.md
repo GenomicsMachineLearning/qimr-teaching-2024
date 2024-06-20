@@ -57,6 +57,7 @@ An overview of the materials to be covered in this course:
 
 # Setting Up and Running the Materials
 
+Copy and paste each of the following lines into your terminal:
 * ```/software/bin/micromamba shell init```
 * ```source ~/.bashrc```
 * ```micromamba activate /software/conda-envs/winter_school_2024```
