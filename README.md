@@ -57,13 +57,11 @@ An overview of the materials to be covered in this course:
 
 # Setting Up and Running the Materials
 
-```
-$ /software/bin/micromamba shell init
-$ source ~/.bashrc
-$ micromamba activate /software/conda-envs/winter_school_2024
-$ git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024 /scratch/$USER/qimr-teaching-2024
-$ /scratch/$USER/qimr-teaching-2024/runme.sh
-```
+* ```/software/bin/micromamba shell init```
+* ```source ~/.bashrc```
+* ```micromamba activate /software/conda-envs/winter_school_2024```
+* ```git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024 /scratch/$USER/qimr-teaching-2024```
+* ```/scratch/$USER/qimr-teaching-2024/runme.sh``` 
 
 # Module 001 - Spatial Single Cell 
 
