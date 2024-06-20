@@ -17,5 +17,5 @@ Use a Browser on your local machine to go to:
 localhost:${port}  (prefix w/ https:// if using password)
 "
 
-cd /software/qimr-teaching-2024
+cd /software/winter_school_2024
 jupyter notebook --no-browser --port=${port} --ip=0.0.0.0
