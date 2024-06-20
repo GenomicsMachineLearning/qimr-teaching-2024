@@ -16,3 +16,4 @@ netgraph>=4.13.2
 python-louvain>=0.16
 multimodal_cci
 git+https://github.com/xiao233333/stLearn.git@update-dependency
+-e .

@@ -94,9 +94,10 @@ There is one Conda environments that will be used for all training materials:
 * python-r
 
 ```
-$ /scratch/qimr-spatial-teaching-2024/micromamba/micromamba shell init
+$ /software/bin/micromamba shell init
 $ source ~/.bashrc
-$ micromamba activate /scratch/qimr-spatial-teaching-2024/conda-envs/python-r
+$ micromamba activate /software/conda-envs/winter_school_2024
+$ /software/winter_school_2024/runme.sh
 ```
 
 # Module 001 - Spatial Single Cell 
