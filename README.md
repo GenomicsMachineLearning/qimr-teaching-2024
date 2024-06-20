@@ -57,7 +57,7 @@ An overview of the materials to be covered in this course:
 
 # Running the Learning Materials
 
-Copy and paste each of the following lines into your terminal:
+Copy and paste each of the following lines into your terminal once you have logged into the workshop server:
 * ```/software/bin/micromamba shell init```
 * ```source ~/.bashrc```
 * ```micromamba activate /software/conda-envs/winter_school_2024```
