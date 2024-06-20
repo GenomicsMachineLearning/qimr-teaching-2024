@@ -77,7 +77,7 @@ localhost:3502  (prefix w/ https:// if using password)
 [I 2024-06-20 05:57:44.647 ServerApp]     http://127.0.0.1:3502/tree?token=abc123
 ```
 
-* Copy the line beginning with "ssh" into a separate terminal and hit [Enter].
+* Copy the line beginning with "ssh" into a new terminal, on your local computer, and hit [Enter].
 * In your browser, copy the line beginning with "http://127.0.0.1".
 
 # Module 001 - Spatial Single Cell 
