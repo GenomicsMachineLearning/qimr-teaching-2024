@@ -78,7 +78,7 @@ localhost:3502  (prefix w/ https:// if using password)
 ```
 
 * Copy the line beginning with "ssh" into a new terminal, on your local computer, and hit [Enter].
-* In your browser, copy the text beginning with "http://127.0.0.1".
+* Copy the text beginning with "http://127.0.0.1" into a new tab in your browser, and hit [Enter].
 
 # Module 001 - Spatial Single Cell 
 
