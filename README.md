@@ -61,7 +61,7 @@ An overview of the materials to be covered in this course:
 $ /software/bin/micromamba shell init
 $ source ~/.bashrc
 $ micromamba activate /software/conda-envs/winter_school_2024
-$ git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024 /scratch/${user}/qimr-teaching-2024
+$ git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024 /scratch/$USER/qimr-teaching-2024
 $ /scratch/${user}/qimr-teaching-2024/runme.sh
 ```
 

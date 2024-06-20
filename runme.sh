@@ -17,5 +17,5 @@ Use a Browser on your local machine to go to:
 localhost:${port}  (prefix w/ https:// if using password)
 "
 
-cd ${user}/qimr-teaching-2024
+cd $USER/qimr-teaching-2024
 jupyter notebook --no-browser --port=${port} --ip=0.0.0.0
