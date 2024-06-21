@@ -37,6 +37,7 @@ An overview of the materials to be covered in this course:
     * [xenium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium_processed.RDS) (98 MB)
 * Module 3
   * 3.1 - CNV Profiling
+    * [infercnv.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/infercnv.tar.gz) (191 MB)
   * 3.2 - Community Analysis
     * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/qimr-teaching-2024/CosMx_Skin_Melanoma.RData) (7.2 MB)
   * 3.3 - Neighborhood Coordination
