@@ -94,7 +94,8 @@ localhost:3502  (prefix w/ https:// if using password)
 * [CNV Profiling](./003-downstream-analysis/3.1_QIMR_CNV_profiling.ipynb).
 * [Cell community identification](./003-downstream-analysis/3.2_hoodscanR.ipynb).
 * [Neighborhood Coordination and Cell Community Identification](./003-downstream-analysis/3.3_neighborhood.ipynb).
-* [Cell-Cell Interactions](./003-downstream-analysis/3.4_Cell_Cell_Interaction.html).
+* [Cell-Cell Interactions CellChat](./003-downstream-analysis/3.4_CCI_CellChat.ipynb).
+* [Cell-Cell Interactions stLearn](./003-downstream-analysis/3.5_CCI_stLearn_MMCCI.ipynb).
 
 # Module 004 - Spatial Statistics
 
