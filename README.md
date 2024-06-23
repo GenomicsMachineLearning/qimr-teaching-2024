@@ -3,7 +3,7 @@
 # GML Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
-* [Module 000 - Single Cell RNAseq Data Analysis](#Module-000---ScRNAseq)
+* [Module 000 - Single Cell RNAseq Data Analysis](#Module-000---Single-Cell-RNAseq-Data-Analysis)
   * Single Cell Data Analysis - Quan
 * [Module 001 - Spatial Single Cell Visualisation](#Module-001---Spatial-Single-Cell)
   * Single Cell Spatial Data Visualisation - Levi
