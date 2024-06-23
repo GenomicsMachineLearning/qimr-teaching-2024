@@ -3,6 +3,8 @@
 # GML Spatial and Machine Learning Teaching Material 2024
 
 An overview of the materials to be covered in this course:
+* [Module 000 - Single Cell RNAseq Data Analysis](#Module-000---ScRNAseq)
+  * Single Cell Data Analysis - Quan
 * [Module 001 - Spatial Single Cell Visualisation](#Module-001---Spatial-Single-Cell)
   * Single Cell Spatial Data Visualisation - Levi
   * stLearn/Xenium Explorer - Xiao
@@ -23,7 +25,8 @@ An overview of the materials to be covered in this course:
   * Xiao & Quan
 
 # Data
-
+* Module 0 scRNAseq (not about spatial omics)
+  * [PBMC 3K scRNAseq data pbmc3k_filtered_gene_bc_matrices.tar.gz](https://s3-us-west-2.amazonaws.com/10x.files/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz) (7.6 MB)
 * Module 1
   * [Xenium_with_labels.zarr.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
   * [cosmx.h5ad](https://downloads.gmllab.com/qimr-teaching-2024/cosmx.h5ad) (1.3 GB)
@@ -80,6 +83,9 @@ localhost:3502  (prefix w/ https:// if using password)
 
 * Copy the line beginning with "ssh" into a new terminal, on your local computer, and hit [Enter].
 * Copy the text beginning with "http://127.0.0.1" into a new tab in your browser, and hit [Enter].
+
+# Module 000 - Single Cell RNAseq Data Analysis
+* [scRNAseq Data Analysis](./000-single-cell-RNAseq/000_Single_Cell_RNAseq_Analysis_2024.ipynb)
 
 # Module 001 - Spatial Single Cell 
 
