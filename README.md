@@ -239,7 +239,9 @@ To install Python dependencies run:
 $ python -m pip install --use-pep517 -r requirements.txt
 ```
 
-Ensure you have Rust and rust-up installed in order to install Python dependencies (gseapy.
+For MacOS, ensure you have Rust and rust-up installed in order to install Python dependencies 
+(run ```rustup target add x86_64-apple-darwin``` before installing). This is for
+gseapy and fastremap.
 
 ### Cloning an Environment
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
