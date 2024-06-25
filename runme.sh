@@ -24,5 +24,9 @@ if [ ! -d "$target_dir" ]; then
   ln -s "$softlink_name" "$target_dir"
 fi
 
+# Fix for GLIBC error
+# https://stackoverflow.com/questions/58424974/anaconda-importerror-usr-lib64-libstdc-so-6-version-glibcxx-3-4-21-not-fo
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib
+
 cd /scratch/$USER/qimr-teaching-2024
 jupyter notebook --no-browser --port=${port} --ip=0.0.0.0
