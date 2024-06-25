@@ -144,7 +144,7 @@ $ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-
 
 In a custom directory:
 ```
-$ conda create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-macos.yml -y
 ```
 
 Currently, all dependencies are only available for x86 (Intel). If you are running an M-series CPU 
