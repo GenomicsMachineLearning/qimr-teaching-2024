@@ -305,7 +305,7 @@ dependencies:
   - nspr=4.35
   - nss=3.101
   - numba=0.60.0
-  - numpy=2.0.0
+  - numpy=1.26.4
   - oniguruma=6.9.9
   - openjpeg=2.5.2
   - openssl=3.3.1
