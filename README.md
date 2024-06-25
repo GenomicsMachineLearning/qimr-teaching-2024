@@ -223,7 +223,7 @@ $ conda install -c conda-forge r-mcmcpack r-fields r-concaveman r-scatterpie r-g
 
 Python Dependencies:
 ```
-$ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel scanpy -y
+$ conda install -c conda-forge jupyter pandas fontconfig freetype libtiff r-irkernel numpy==1.26.4 scanpy -y
 ```
 
 ### Installing Unmanaged Dependencies from Source
@@ -236,8 +236,10 @@ $ Rscript dependencies.R
 
 To install Python dependencies run:
 ```
-$ python -m pip install -r requirements.txt
+$ python -m pip install --use-pep517 -r requirements.txt
 ```
+
+Ensure you have Rust and rust-up installed in order to install Python dependencies (gseapy.
 
 ### Cloning an Environment
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:

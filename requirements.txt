@@ -1,4 +1,5 @@
 spatialdata[extra]>=0.1.2
+fastremap==1.13.2
 torch>=2.2.2
 torchvision>=0.17.2
 lightning>=2.2.2
